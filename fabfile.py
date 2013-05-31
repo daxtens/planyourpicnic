@@ -2,6 +2,7 @@ from fabric.api import *
 
 def setup():
 	local("pip install bottle")
+	local("pip install psycopg2")
 
         # syntax checkers and cleaners
         local("pip install pep8")
