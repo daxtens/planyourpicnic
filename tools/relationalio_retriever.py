@@ -1,5 +1,5 @@
 # Download data from relational.io, and load into local PostgreSQL database
-# Doesn't work; don't use
+# Doesn't work; relationalio doesn't return useful data; don't use
 
 import psycopg2
 import psycopg2.extras
@@ -16,8 +16,6 @@ rio_conn = psycopg2.connect(host="workspace.govhack.relational.io",
                             port=5432, sslmode="require")
 rio_cur = rio_conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-local_user = "" # TODO get local server details
-local_pw = "" # TODO (can this be stored safely?
 local_conn = psycopg2.connect(host=DB_HOST, database=DB_DATABASE,
                               user=DB_USER, password=DB_PASSWORD, port=DB_PORT)
 local_cur = local_conn.cursor()
