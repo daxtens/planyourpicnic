@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1243">
+        <Style id="stylesel_2"/>
+        <Placemark id="feat_1244">
+            <name>Toilet - ACTON - ACTON PARK DISTRICT PARK - ACTON FERRY TERMINAL - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1240">
+                <coordinates>149.124928,-35.286775,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1245">
+            <name>Toilet - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1241">
+                <coordinates>149.100125,-35.292289,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1246">
+            <name>Toilet - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1242">
+                <coordinates>149.10124,-35.287294,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1247">
+            <name>Toilet - AINSLIE - AINSLIE SHOPS - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1243">
+                <coordinates>149.145521,-35.26259,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1248">
+            <name>Toilet - BARTON - BOWEN PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1244">
+                <coordinates>149.139578,-35.308024,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1249">
+            <name>Toilet - BARTON - TELOPEA PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1245">
+                <coordinates>149.137502,-35.314394,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1250">
+            <name>Toilet - BELCONNEN - JOYNTON SMITH DRIVE PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1246">
+                <coordinates>149.063118,-35.22778,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1251">
+            <name>Toilet - BELCONNEN - GINNINDERRA PENINSULA DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1247">
+                <coordinates>149.070427,-35.225351,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1252">
+            <name>Toilet - BELCONNEN - EMU BANK PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1248">
+                <coordinates>149.071891,-35.239022,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1253">
+            <name>Toilet - BELCONNEN - DIDDAMS CLOSE PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1249">
+                <coordinates>149.074316,-35.228706,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1254">
+            <name>Toilet - BELCONNEN - JOHN KNIGHT MEMORIAL PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1250">
+                <coordinates>149.074708,-35.235937,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1255">
+            <name>Toilet - BOOTH - GLENDALE PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1251">
+                <coordinates>148.998949,-35.682677,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1256">
+            <name>Toilet - BOOTH - BRANDY FLAT - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1252">
+                <coordinates>149.019659,-35.715222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1257">
+            <name>Toilet - BRADDON - HAIG PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1253">
+                <coordinates>149.131798,-35.270109,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1258">
+            <name>Toilet - CAMPBELL - MOLONGLO REACH DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1254">
+                <coordinates>149.167193,-35.304301,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1259">
+            <name>Toilet - CHARNWOOD - CHARNWOOD SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1255">
+                <coordinates>149.033642,-35.205232,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1260">
+            <name>Toilet - CHIFLEY - SHANN PLACE - NEIGHBOURHOOD PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1256">
+                <coordinates>149.07643,-35.352376,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1261">
+            <name>Toilet - CHISHOLM - CHISHOLM SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1257">
+                <coordinates>149.128291,-35.413384,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1262">
+            <name>Toilet - CITY - GLEBE PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1258">
+                <coordinates>149.136397,-35.282411,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1263">
+            <name>Toilet - CITY - MORT STREET ROAD VERGE - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1259">
+                <coordinates>149.1306,-35.277669,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1264">
+            <name>Toilet - CITY - ALINGA STREET ROAD VERGE - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1260">
+                <coordinates>149.130372,-35.278422,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1265">
+            <name>Toilet - COREE (RURAL) - COTTER RESERVE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1261">
+                <coordinates>148.938159,-35.327899,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1266">
+            <name>Toilet - COREE (RURAL) - URIARRA WEST - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1262">
+                <coordinates>148.951159,-35.245219,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1267">
+            <name>Toilet - COREE (RURAL) - COTTER RESERVE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1263">
+                <coordinates>148.941974,-35.322352,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1268">
+            <name>Toilet - COREE (RURAL) - SWAMP CREEK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1264">
+                <coordinates>148.951147,-35.242502,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1269">
+            <name>Toilet - COREE (RURAL) - COTTER CAMPGROUND - MANUAL STYLE ABLUTION BLOCKS WITH SHOWER FACILITIES</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1265">
+                <coordinates>148.947535,-35.32575,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1270">
+            <name>Toilet - COREE (RURAL) - BLUE RANGE - URIARRA PINES - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1266">
+                <coordinates>148.87549,-35.289639,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1271">
+            <name>Toilet - COREE (RURAL) - COTTER RESERVE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1267">
+                <coordinates>148.943792,-35.326173,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1272">
+            <name>Toilet - COTTER RIVER - MT FRANKLIN - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1268">
+                <coordinates>148.765221,-35.4909,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1273">
+            <name>Toilet - COTTER RIVER - BULLS HEAD PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1269">
+                <coordinates>148.804353,-35.386919,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1274">
+            <name>Toilet - COTTER RIVER - BENDORA DAM - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1270">
+                <coordinates>148.827985,-35.44254,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1275">
+            <name>Toilet - COTTER RIVER - CORIN DAM - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1271">
+                <coordinates>148.834869,-35.534118,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1276">
+            <name>Toilet - CRACE - NARDEN STREET COMMUNITY PARK - PUBLIC TOILET LOCATED WITHIN BUILDING</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1272">
+                <coordinates>149.102683,-35.201499,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1277">
+            <name>Toilet - CURTIN - CURTIN SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1273">
+                <coordinates>149.082212,-35.325127,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1278">
+            <name>Toilet - DEAKIN - BEDFORD STREET - NEIGHBOURHOOD PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1274">
+                <coordinates>149.112969,-35.318049,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1279">
+            <name>Toilet - DEAKIN - DEAKIN SHOPPING CENTRE - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1275">
+                <coordinates>149.107678,-35.314703,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1280">
+            <name>Toilet - DICKSON - DUTTON STREET NEIGHBOURHOOD PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1276">
+                <coordinates>149.149243,-35.252467,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1281">
+            <name>Toilet - DICKSON - DICKSON SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1277">
+                <coordinates>149.140455,-35.250445,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1282">
+            <name>Toilet - DOWNER - MELBA STREET - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1278">
+                <coordinates>149.145148,-35.24537,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1283">
+            <name>Toilet - FADDEN - FADDEN PINES DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1279">
+                <coordinates>149.120754,-35.411678,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1284">
+            <name>Toilet - FORDE - RAY ELLIS CRESCENT DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1280">
+                <coordinates>149.141825,-35.172385,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1285">
+            <name>Toilet - FYSHWICK - MOLONGLO REACH WATER SKI - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1281">
+                <coordinates>149.173956,-35.304152,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1286">
+            <name>Toilet - FYSHWICK - MARYBOROUGH STREET - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1282">
+                <coordinates>149.176568,-35.326962,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1287">
+            <name>Toilet - GOOGONG - GOOGONG FORESHORE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1283">
+                <coordinates>149.261939,-35.409807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1288">
+            <name>Toilet - GOOGONG - GOOGONG FORESHORE - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1284">
+                <coordinates>149.260833,-35.49717,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1289">
+            <name>Toilet - GOOGONG - GOOGONG FORESHORE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1285">
+                <coordinates>149.261724,-35.422499,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1290">
+            <name>Toilet - GOOGONG - GOOGONG FORESHORE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1286">
+                <coordinates>149.25746,-35.430707,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1291">
+            <name>Toilet - GOOGONG - GOOGONG FORESHORE - MANUAL STYLE ABLUTION BLOCKS WITH SHOWER FACILITIES</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1287">
+                <coordinates>149.257524,-35.511528,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1292">
+            <name>Toilet - GORDON - POINT HUT DISTRICT PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1288">
+                <coordinates>149.084847,-35.455509,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1293">
+            <name>Toilet - GREENWAY - TUGGERANONG TOWN PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1289">
+                <coordinates>149.064596,-35.411223,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1294">
+            <name>Toilet - GREENWAY - LAKE TUGGERANONG DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1290">
+                <coordinates>149.072143,-35.405828,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1295">
+            <name>Toilet - GRIFFITH - GRIFFITH SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1291">
+                <coordinates>149.142196,-35.328262,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1296">
+            <name>Toilet - GUNGAHLIN - YERRABI DISTRICT PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1292">
+                <coordinates>149.130757,-35.179245,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1297">
+            <name>Toilet - GUNGAHLIN - YERRABI DISTRICT PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1293">
+                <coordinates>149.130693,-35.179264,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1298">
+            <name>Toilet - GUNGAHLIN (RURAL) - BEHIND WOOLSHED - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1294">
+                <coordinates>149.158012,-35.166808,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1299">
+            <name>Toilet - HALL - HALL PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1295">
+                <coordinates>149.069323,-35.171989,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1300">
+            <name>Toilet - HAWKER - HAWKER SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1296">
+                <coordinates>149.043296,-35.243714,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1301">
+            <name>Toilet - HOLT - KIPPAX FAIR - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1297">
+                <coordinates>149.020432,-35.222134,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1302">
+            <name>Toilet - HUGHES - WISDOM STREET - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1298">
+                <coordinates>149.093583,-35.333144,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1303">
+            <name>Toilet - INNER NORTH (RURAL) - MAJURA ROAD - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1299">
+                <coordinates>149.19085,-35.211253,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1304">
+            <name>Toilet - KAMBAH - KAMBAH DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1300">
+                <coordinates>149.06038,-35.388592,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1305">
+            <name>Toilet - KAMBAH - KAMBAH VILLAGE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1301">
+                <coordinates>149.058396,-35.380178,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1306">
+            <name>Toilet - KAMBAH - KAMBAH DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1302">
+                <coordinates>149.061799,-35.391825,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1307">
+            <name>Toilet - KINGSTON - EYRE STREET - ROAD VERGE - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1303">
+                <coordinates>149.142347,-35.316418,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1308">
+            <name>Toilet - KOWEN - KOWEN PINES - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1304">
+                <coordinates>149.28729,-35.289285,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1309">
+            <name>Toilet - KOWEN - KOWEN PINES - PORTABLE TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1305">
+                <coordinates>149.341673,-35.336467,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1310">
+            <name>Toilet - KOWEN - KOWEN PINES - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1306">
+                <coordinates>149.351227,-35.328354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1311">
+            <name>Toilet - KOWEN - MOLONGLO GORGE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1307">
+                <coordinates>149.250067,-35.328742,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1312">
+            <name>Toilet - KOWEN - MOLONGLO GORGE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1308">
+                <coordinates>149.246904,-35.32252,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1313">
+            <name>Toilet - LYNEHAM - LYNEHAM SHOPS - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1309">
+                <coordinates>149.125232,-35.252081,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1314">
+            <name>Toilet - MAWSON - MAWSON SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1310">
+                <coordinates>149.094377,-35.365804,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1315">
+            <name>Toilet - MITCHELL - BAILLIEU LANE PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1311">
+                <coordinates>149.142251,-35.218239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1316">
+            <name>Toilet - MOUNT CLEAR - NAAS VALLEY - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1312">
+                <coordinates>148.970492,-35.88738,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1317">
+            <name>Toilet - MOUNT CLEAR - MT CLEAR CAMPGROUND - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1313">
+                <coordinates>149.015171,-35.868076,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1318">
+            <name>Toilet - MOUNT CLEAR - MOUNT CLEAR CAMPGROUND - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1314">
+                <coordinates>149.010223,-35.864661,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1319">
+            <name>Toilet - MOUNT CLEAR - NAAS VALLEY - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1315">
+                <coordinates>149.06591,-35.823944,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1320">
+            <name>Toilet - NARRABUNDAH - NARRABUNDAH SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1316">
+                <coordinates>149.154018,-35.33301,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1321">
+            <name>Toilet - O'CONNOR - O&quot;CONNOR SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1317">
+                <coordinates>149.122566,-35.26432,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1322">
+            <name>Toilet - PADDYS RIVER - URIARRA PINES - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1318">
+                <coordinates>148.937258,-35.289835,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1323">
+            <name>Toilet - PADDYS RIVER - SANCTUARY - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1319">
+                <coordinates>148.904966,-35.466307,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1324">
+            <name>Toilet - PADDYS RIVER - GIBRALTAR PINES - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1320">
+                <coordinates>148.940327,-35.4807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1325">
+            <name>Toilet - PADDYS RIVER - GIBRALTAR PINES - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1321">
+                <coordinates>148.93398,-35.487883,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1326">
+            <name>Toilet - PADDYS RIVER - WETLANDS CARPARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1322">
+                <coordinates>148.90684,-35.461472,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1327">
+            <name>Toilet - PADDYS RIVER - FLINTS PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1323">
+                <coordinates>148.919541,-35.459812,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1328">
+            <name>Toilet - PADDYS RIVER - BIRRIGAI - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1324">
+                <coordinates>148.959732,-35.452316,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1329">
+            <name>Toilet - PADDYS RIVER - GIBRALTAR PINES - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1325">
+                <coordinates>148.938844,-35.481348,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1330">
+            <name>Toilet - PADDYS RIVER - MURRAYS CORNER - PIERCES CK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1326">
+                <coordinates>148.952185,-35.363577,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1331">
+            <name>Toilet - PADDYS RIVER - SHEEDYS CK PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1327">
+                <coordinates>148.929499,-35.444048,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1332">
+            <name>Toilet - PADDYS RIVER - BLEWITTS PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1328">
+                <coordinates>148.926569,-35.442122,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1333">
+            <name>Toilet - PHILLIP - JUSTINIAN STREET - ROAD VERGE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1329">
+                <coordinates>149.092971,-35.34299,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1334">
+            <name>Toilet - PHILLIP - PHILLIP TOWN CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1330">
+                <coordinates>149.086107,-35.344618,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1335">
+            <name>Toilet - PHILLIP - EDISON DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1331">
+                <coordinates>149.091274,-35.340323,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1336">
+            <name>Toilet - PHILLIP - PHILLIP TOWN CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1332">
+                <coordinates>149.087611,-35.352413,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1337">
+            <name>Toilet - RED HILL - RED HILL SCENIC LOOKOUT - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1333">
+                <coordinates>149.116771,-35.32882,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1338">
+            <name>Toilet - REID - LIMESTONE AVENUE - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1334">
+                <coordinates>149.145947,-35.282531,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1339">
+            <name>Toilet - RENDEZVOUS CREEK - YANKEE HAT CARPARK - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1335">
+                <coordinates>148.973743,-35.757247,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1340">
+            <name>Toilet - RENDEZVOUS CREEK - ORRORAL VALLEY - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1336">
+                <coordinates>148.988692,-35.66571,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1341">
+            <name>Toilet - RENDEZVOUS CREEK - ORRORAL VALLEY - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1337">
+                <coordinates>148.988929,-35.662442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1342">
+            <name>Toilet - RENDEZVOUS CREEK - ORRORAL VALLEY - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1338">
+                <coordinates>148.955167,-35.62915,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1343">
+            <name>Toilet - RENDEZVOUS CREEK - OFF OLD BOBOYAN ROAD - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1339">
+                <coordinates>148.95864,-35.775309,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1344">
+            <name>Toilet - STROMLO (RURAL) - CASUARINA SANDS PICNIC AREA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1340">
+                <coordinates>148.9537,-35.319852,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1345">
+            <name>Toilet - STROMLO (RURAL) - CASAURINA SANDS NORTH - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1341">
+                <coordinates>148.959765,-35.319294,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1346">
+            <name>Toilet - STROMLO (RURAL) - URIARRA EAST - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1342">
+                <coordinates>148.952205,-35.250073,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1347">
+            <name>Toilet - TENNENT - BOOROOMBAH ROCKS CAMPGROUND - PIT TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1343">
+                <coordinates>148.993356,-35.567425,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1348">
+            <name>Toilet - TENNENT - HONEYSUCKLE CAMPGROUND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1344">
+                <coordinates>148.974686,-35.58311,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1349">
+            <name>Toilet - THARWA - THARWA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1345">
+                <coordinates>149.069445,-35.509224,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1350">
+            <name>Toilet - THARWA - THARWA - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1346">
+                <coordinates>149.066798,-35.509358,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1351">
+            <name>Toilet - TUGGERANONG (RURAL) - ANGEL CROSSING - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1347">
+                <coordinates>149.109603,-35.583573,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1352">
+            <name>Toilet - TUGGERANONG (RURAL) - PINE ISLAND SOUTH - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1348">
+                <coordinates>149.065664,-35.431855,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1353">
+            <name>Toilet - TUGGERANONG (RURAL) - KAMBAH POOL SOUTH CARPARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1349">
+                <coordinates>149.011048,-35.397829,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1354">
+            <name>Toilet - TUGGERANONG (RURAL) - NUDE BEACH - KAMBAH POOL - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1350">
+                <coordinates>149.009275,-35.394361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1355">
+            <name>Toilet - TUGGERANONG (RURAL) - POINT HUT - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1351">
+                <coordinates>149.075546,-35.45239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1356">
+            <name>Toilet - TUGGERANONG (RURAL) - PINE ISLAND CENTRAL - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1352">
+                <coordinates>149.062259,-35.428028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1357">
+            <name>Toilet - TUGGERANONG (RURAL) - PINE ISLAND NORTH - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1353">
+                <coordinates>149.054726,-35.425631,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1358">
+            <name>Toilet - YARRALUMLA - YARRALUMLA SHOPPING CENTRE - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1354">
+                <coordinates>149.097161,-35.307226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1359">
+            <name>Toilet - YARRALUMLA - WESTON PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1355">
+                <coordinates>149.089446,-35.29694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1360">
+            <name>Toilet - YARRALUMLA - WESTON PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1356">
+                <coordinates>149.091561,-35.292601,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1361">
+            <name>Toilet - YARRALUMLA - ALEXANDRINA DRIVE - PEDESTRIAN PARKLAND - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1357">
+                <coordinates>149.117079,-35.300313,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1362">
+            <name>Toilet - YARRALUMLA - WESTON PARK - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1358">
+                <coordinates>149.093934,-35.293513,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1363">
+            <name>Toilet - YARRALUMLA - YARRALUMLA BAY DISTRICT PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1359">
+                <coordinates>149.102962,-35.299276,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1364">
+            <name>Toilet - YARRALUMLA - LENNOX GARDENS - AUTOMATED SYSTEM EG EXCELOO BRAND TOILET</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1360">
+                <coordinates>149.122904,-35.297489,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1365">
+            <name>Toilet - YARRALUMLA - WESTON PARK - MANUAL STYLE ABLUTION BLOCK</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Point id="geom_1361">
+                <coordinates>149.089768,-35.291947,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
