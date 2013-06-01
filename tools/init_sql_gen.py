@@ -276,7 +276,7 @@ with open(sys.argv[1]) as csvfile:
     reader = csv.reader(csvfile)
     for line in reader:
         
-        print "INSERT INTO pois (location, type) VALUES (%s, 'bbq');" % ((line[2] and line[3]) and "'%s, %s'" % (line[2], line[3]) or 'NULL')
+        print "INSERT INTO pois (location, type) VALUES (%s, 'bbq');" % ((line[3] and line[2]) and "'%s, %s'" % (line[3], line[2]) or 'NULL')
         
         
         print "INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (%d, '%s', '%s', %s, '%s', %d, %s, %s, %s, %s, %s);" % \
