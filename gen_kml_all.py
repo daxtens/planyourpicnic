@@ -21,7 +21,8 @@ bbq_style = simplekml.Style()
 bbq_style.labelstyle.color = 'ff0000ff'  # Red
 bbq_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedept.png'
 
-furniture_style = simplekml.Style()
+furniture_table_style = simplekml.Style()
+furniture_seat_style = simplekml.Style()
 
 toilet_style = simplekml.Style()
 
@@ -80,7 +81,8 @@ kml.save("data/toilets.kml")
 
 
 # Furnitures - which is totally a word now
-kml = simplekml.Kml()
+kmltables = simplekml.Kml()
+kmlseats = simplekml.Kml()
 
 cur.execute("SELECT pois.location, furniture.division_name, furniture.feature_type, furniture.location_name FROM pois, furniture WHERE pois.type='furniture' AND pois.id=furniture.id;")
 furnitures = cur.fetchall()
@@ -88,7 +90,15 @@ furnitures = cur.fetchall()
 for furniture in furnitures:
     if furniture['location'] != None:
         coords = furniture['location'][1:-1].split(',')
-        point = kml.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
-        point.style = furniture_style
+        if furniture['feature_type'] == 'TABLE':
+            point = kmltables.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
+            point.style = furniture_table_style
+        elif furniture['feature_type'] == 'SEAT':
+            point = kmlseats.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
+            point.style = furniture_seat_style
+        else:
+            print "Unknown furniture type found:",furniture['feature_type']
+        
 
-kml.save("data/furnitures.kml")
+kmltables.save("data/furnitures_tables.kml")
+kmlseats.save("data/furnitures_seats.kml")
