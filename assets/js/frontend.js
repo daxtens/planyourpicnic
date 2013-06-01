@@ -1,5 +1,7 @@
 "use strict"
 
+var HOSTNAME = "planyourpicnic.dja.id.au"
+
 var layers = {};
 var layersVisible = {};
 var map;
@@ -17,33 +19,33 @@ function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   layers.BBQ = new google.maps.KmlLayer({
-    url: 'http://dja.dja.id.au/data/bbq.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/bbq.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.BBQ = true;
   layers.BBQ.setMap(map);
 
   layers.seats = new google.maps.KmlLayer({
-    url: 'http://dja.dja.id.au/data/publicfurniture.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/publicfurniture.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.seats = true;
   layers.seats.setMap(map);
 
   layers.tables = new google.maps.KmlLayer({
-    url: 'http://dja.dja.id.au/data/tables.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/tables.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.tables = false;
 
   layers.toilets = new google.maps.KmlLayer({
-    url: 'http://planyourpicnic.dja.id.au/data/toilets.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.toilets = false;
 
   layers.playgrounds = new google.maps.KmlLayer({
-    url: 'http://dja.dja.id.au/data/playgrounds.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/playgrounds.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.playgrounds = false;
