@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_1243">
-        <Style id="stylesel_3"/>
+        <Style id="stylesel_2"/>
         <Placemark id="feat_1244">
             <name>Toilet - ACTON - ACTON PARK DISTRICT PARK - ACTON FERRY TERMINAL - MANUAL STYLE ABLUTION BLOCK</name>
             <styleUrl>#stylesel_3</styleUrl>

@@ -23,11 +23,15 @@ bbq_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedep
 
 furniture_table_style = simplekml.Style()
 furniture_seat_style = simplekml.Style()
+furniture_table_style.iconstyle.icon.href="http://maps.google.com/mapfiles/kml/pal2/icon20.png"
+furniture_seat_style.iconstyle.icon.href="http://maps.google.com/mapfiles/kml/pal2/icon20.png"
 
 toilet_style = simplekml.Style()
+toilet_style.labelstyle.color = 'ff0000ff'  # Red
+toilet_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/toilets.png'
 
 playground_style = simplekml.Style()
-playground_style.iconstyle.icon.href="http://localhost/ajd/playground.png"
+playground_style.iconstyle.icon.href="http://labs.google.com/ridefinder/images/mm_20_yellow.png"
 
 
 
@@ -100,5 +104,4 @@ for furniture in furnitures:
             print "Unknown furniture type found:",furniture['feature_type']
         
 
-kmltables.save("data/furnitures_tables.kml")
-kmlseats.save("data/furnitures_seats.kml")
+kml.save("data/furnitures.kml")
