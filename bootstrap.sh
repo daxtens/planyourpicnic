@@ -2,7 +2,7 @@
 
 sudo apt-get update
 
-sudo apt-get install -y python-virtualenv python-dev postgresql-9.1 postgresql-client-9.1 libpq-dev git fabric
+sudo apt-get install -y python-virtualenv python-dev postgresql-9.1 postgresql-client-9.1 libpq-dev git fabric phppgadmin
 
 cd /vagrant
 

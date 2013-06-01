@@ -11,7 +11,8 @@ def setup():
         local("easy_install http://closure-linter.googlecode.com/files/closure_linter-latest.tar.gz")
         
         # Set up database
-        local("sudo -u postgres psql -f data/init.sql")
+        local("sudo -u postgres psql -f data/create_user_db.sql")
+        local("sudo -u postgres psql planmypicnic -f data/init.sql")
 
 
 def init_ec2():
