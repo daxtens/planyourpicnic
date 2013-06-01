@@ -12,7 +12,7 @@ def setup():
         
         # Set up database
         local("sudo -u postgres psql -f data/create_user_db.sql")
-        local("sudo -u postgres psql planyourpicnic -f data/init.sql")
+        local("cd tools; ./import_all.sh")
 
 
 def init_ec2():
