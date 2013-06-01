@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Placemark id="feat_2">
+            <name>bbq0</name>
+            <Point id="geom_0">
+                <coordinates>149.083095204,-35.4573706426,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>bbq1</name>
+            <Point id="geom_1">
+                <coordinates>149.149805103,-35.281451139,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>bbq2</name>
+            <Point id="geom_2">
+                <coordinates>149.150068171,-35.2810362536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_5">
+            <name>bbq8</name>
+            <Point id="geom_3">
+                <coordinates>149.08906264,-35.3428999968,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_6">
+            <name>bbq9</name>
+            <Point id="geom_4">
+                <coordinates>149.08883167,-35.342918174,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_7">
+            <name>bbq10</name>
+            <Point id="geom_5">
+                <coordinates>149.081949344,-35.3466176361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_8">
+            <name>bbq11</name>
+            <Point id="geom_6">
+                <coordinates>149.085711087,-35.3463719788,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_9">
+            <name>bbq12</name>
+            <Point id="geom_7">
+                <coordinates>149.087767518,-35.3344290756,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_10">
+            <name>bbq13</name>
+            <Point id="geom_8">
+                <coordinates>149.056075491,-35.3621769784,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_11">
+            <name>bbq14</name>
+            <Point id="geom_9">
+                <coordinates>149.132042737,-35.2663833523,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_12">
+            <name>bbq15</name>
+            <Point id="geom_10">
+                <coordinates>149.132778046,-35.2657517204,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_13">
+            <name>bbq16</name>
+            <Point id="geom_11">
+                <coordinates>149.127236561,-35.2712369226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_14">
+            <name>bbq17</name>
+            <Point id="geom_12">
+                <coordinates>149.125323286,-35.2704907253,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_15">
+            <name>bbq18</name>
+            <Point id="geom_13">
+                <coordinates>149.141159475,-35.2705826535,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_16">
+            <name>bbq19</name>
+            <Point id="geom_14">
+                <coordinates>149.135181584,-35.2850903048,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_17">
+            <name>bbq20</name>
+            <Point id="geom_15">
+                <coordinates>149.135443621,-35.2839544447,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_18">
+            <name>bbq21</name>
+            <Point id="geom_16">
+                <coordinates>149.13513508,-35.2834500606,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_19">
+            <name>bbq22</name>
+            <Point id="geom_17">
+                <coordinates>149.16616354,-35.3061525359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_20">
+            <name>bbq23</name>
+            <Point id="geom_18">
+                <coordinates>149.100232406,-35.2887446901,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_21">
+            <name>bbq24</name>
+            <Point id="geom_19">
+                <coordinates>149.098380293,-35.2938111439,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_22">
+            <name>bbq25</name>
+            <Point id="geom_20">
+                <coordinates>149.098929216,-35.2931618322,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_23">
+            <name>bbq26</name>
+            <Point id="geom_21">
+                <coordinates>149.099765311,-35.2937470278,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_24">
+            <name>bbq27</name>
+            <Point id="geom_22">
+                <coordinates>149.123512416,-35.2878687522,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_25">
+            <name>bbq28</name>
+            <Point id="geom_23">
+                <coordinates>149.123193524,-35.287778927,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_26">
+            <name>bbq29</name>
+            <Point id="geom_24">
+                <coordinates>149.073003443,-35.2305945236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_27">
+            <name>bbq30</name>
+            <Point id="geom_25">
+                <coordinates>149.072816788,-35.2306937612,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_28">
+            <name>bbq31</name>
+            <Point id="geom_26">
+                <coordinates>149.061524179,-35.22945541,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_29">
+            <name>bbq32</name>
+            <Point id="geom_27">
+                <coordinates>149.062237864,-35.2290224911,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_30">
+            <name>bbq33</name>
+            <Point id="geom_28">
+                <coordinates>149.062171843,-35.2288422662,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_31">
+            <name>bbq34</name>
+            <Point id="geom_29">
+                <coordinates>149.061985086,-35.2287972842,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_32">
+            <name>bbq35</name>
+            <Point id="geom_30">
+                <coordinates>149.062028182,-35.2274994386,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_33">
+            <name>bbq36</name>
+            <Point id="geom_31">
+                <coordinates>149.061620988,-35.226264877,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_34">
+            <name>bbq37</name>
+            <Point id="geom_32">
+                <coordinates>149.059077492,-35.233980807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_35">
+            <name>bbq38</name>
+            <Point id="geom_33">
+                <coordinates>149.068398648,-35.2272892041,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_36">
+            <name>bbq39</name>
+            <Point id="geom_34">
+                <coordinates>149.068211982,-35.2273704092,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_37">
+            <name>bbq40</name>
+            <Point id="geom_35">
+                <coordinates>149.072172778,-35.2359575016,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_38">
+            <name>bbq41</name>
+            <Point id="geom_36">
+                <coordinates>149.072162065,-35.2363090014,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_39">
+            <name>bbq42</name>
+            <Point id="geom_37">
+                <coordinates>149.065899995,-35.2196115834,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_40">
+            <name>bbq43</name>
+            <Point id="geom_38">
+                <coordinates>149.055722122,-35.2251406967,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_41">
+            <name>bbq44</name>
+            <Point id="geom_39">
+                <coordinates>149.068491545,-35.1736814551,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_42">
+            <name>bbq45</name>
+            <Point id="geom_40">
+                <coordinates>149.068579115,-35.1733479399,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_43">
+            <name>bbq46</name>
+            <Point id="geom_41">
+                <coordinates>149.029885898,-35.213215032,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_44">
+            <name>bbq47</name>
+            <Point id="geom_42">
+                <coordinates>149.027646513,-35.2173161738,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_45">
+            <name>bbq48</name>
+            <Point id="geom_43">
+                <coordinates>149.027778357,-35.2175594968,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_46">
+            <name>bbq49</name>
+            <Point id="geom_44">
+                <coordinates>149.012896733,-35.2095755934,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_47">
+            <name>bbq50</name>
+            <Point id="geom_45">
+                <coordinates>149.013588841,-35.2148750453,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_48">
+            <name>bbq51</name>
+            <Point id="geom_46">
+                <coordinates>149.084532185,-35.2135899654,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_49">
+            <name>bbq52</name>
+            <Point id="geom_47">
+                <coordinates>149.084356233,-35.2133287061,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_50">
+            <name>bbq53</name>
+            <Point id="geom_48">
+                <coordinates>149.129433224,-35.18094569,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_51">
+            <name>bbq54</name>
+            <Point id="geom_49">
+                <coordinates>149.129674557,-35.1808282846,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_52">
+            <name>bbq55</name>
+            <Point id="geom_50">
+                <coordinates>149.129630554,-35.1807652391,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_53">
+            <name>bbq56</name>
+            <Point id="geom_51">
+                <coordinates>149.129400251,-35.1809186844,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_54">
+            <name>bbq57</name>
+            <Point id="geom_52">
+                <coordinates>149.14097794,-35.2194901117,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_55">
+            <name>bbq58</name>
+            <Point id="geom_53">
+                <coordinates>149.08273084,-35.420032612,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_56">
+            <name>bbq59</name>
+            <Point id="geom_54">
+                <coordinates>149.077579185,-35.4081392559,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_57">
+            <name>bbq60</name>
+            <Point id="geom_55">
+                <coordinates>149.059327393,-35.3902134567,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_58">
+            <name>bbq61</name>
+            <Point id="geom_56">
+                <coordinates>149.059217296,-35.3901504152,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_59">
+            <name>bbq62</name>
+            <Point id="geom_57">
+                <coordinates>149.060936291,-35.3934212092,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_60">
+            <name>bbq63</name>
+            <Point id="geom_58">
+                <coordinates>149.060881386,-35.3936195063,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_61">
+            <name>bbq64</name>
+            <Point id="geom_59">
+                <coordinates>149.060815422,-35.3937366962,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_62">
+            <name>bbq65</name>
+            <Point id="geom_60">
+                <coordinates>149.063524414,-35.4123191317,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_63">
+            <name>bbq66</name>
+            <Point id="geom_61">
+                <coordinates>149.08349195,-35.457595708,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_64">
+            <name>bbq67</name>
+            <Point id="geom_62">
+                <coordinates>149.175455269,-35.3283560432,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_65">
+            <name>bbq68</name>
+            <Point id="geom_63">
+                <coordinates>149.175378361,-35.328392199,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_66">
+            <name>bbq69</name>
+            <Point id="geom_64">
+                <coordinates>149.110867564,-35.3197845295,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_67">
+            <name>bbq70</name>
+            <Point id="geom_65">
+                <coordinates>149.136088995,-35.3171921371,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_68">
+            <name>bbq71</name>
+            <Point id="geom_66">
+                <coordinates>149.135989906,-35.317111128,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_69">
+            <name>bbq72</name>
+            <Point id="geom_67">
+                <coordinates>149.136582625,-35.3164345644,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_70">
+            <name>bbq73</name>
+            <Point id="geom_68">
+                <coordinates>149.138940727,-35.3126738253,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_71">
+            <name>bbq74</name>
+            <Point id="geom_69">
+                <coordinates>149.108060757,-35.2994274775,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_72">
+            <name>bbq75</name>
+            <Point id="geom_70">
+                <coordinates>149.109403043,-35.3003005938,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_73">
+            <name>bbq76</name>
+            <Point id="geom_71">
+                <coordinates>149.119880285,-35.3005167822,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_74">
+            <name>bbq77</name>
+            <Point id="geom_72">
+                <coordinates>149.120243199,-35.3006065756,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_75">
+            <name>bbq78</name>
+            <Point id="geom_73">
+                <coordinates>149.120605213,-35.3000384508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_76">
+            <name>bbq79</name>
+            <Point id="geom_74">
+                <coordinates>149.093942829,-35.2972841757,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_77">
+            <name>bbq80</name>
+            <Point id="geom_75">
+                <coordinates>149.092181871,-35.2952846018,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_78">
+            <name>bbq81</name>
+            <Point id="geom_76">
+                <coordinates>149.088980621,-35.2929434807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_79">
+            <name>bbq82</name>
+            <Point id="geom_77">
+                <coordinates>149.091993771,-35.2940860567,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_80">
+            <name>bbq83</name>
+            <Point id="geom_78">
+                <coordinates>149.089969423,-35.2924020699,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_81">
+            <name>bbq84</name>
+            <Point id="geom_79">
+                <coordinates>149.090947201,-35.2918426333,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_82">
+            <name>bbq85</name>
+            <Point id="geom_80">
+                <coordinates>149.094266644,-35.2915609567,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_83">
+            <name>bbq86</name>
+            <Point id="geom_81">
+                <coordinates>149.122822209,-35.242238472,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_84">
+            <name>bbq87</name>
+            <Point id="geom_82">
+                <coordinates>149.073043312,-35.2394359375,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_85">
+            <name>bbq88</name>
+            <Point id="geom_83">
+                <coordinates>149.072999357,-35.2394179353,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_86">
+            <name>bbq89</name>
+            <Point id="geom_84">
+                <coordinates>149.061898695,-35.1629683071,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_87">
+            <name>bbq90</name>
+            <Point id="geom_85">
+                <coordinates>149.119032228,-35.4132187449,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_88">
+            <name>bbq91</name>
+            <Point id="geom_86">
+                <coordinates>149.118821375,-35.4119752241,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_89">
+            <name>bbq92</name>
+            <Point id="geom_87">
+                <coordinates>149.118161514,-35.4124715031,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_90">
+            <name>bbq93</name>
+            <Point id="geom_88">
+                <coordinates>149.119879412,-35.4128484635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_91">
+            <name>bbq94</name>
+            <Point id="geom_89">
+                <coordinates>149.108800332,-35.1939788001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_92">
+            <name>bbq95</name>
+            <Point id="geom_90">
+                <coordinates>149.108931621,-35.1936001573,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_93">
+            <name>bbq96</name>
+            <Point id="geom_91">
+                <coordinates>149.063887129,-35.4114627892,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_94">
+            <name>bbq97</name>
+            <Point id="geom_92">
+                <coordinates>149.068586779,-35.4099915501,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_95">
+            <name>bbq98</name>
+            <Point id="geom_93">
+                <coordinates>149.069367481,-35.4087744883,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_96">
+            <name>bbq99</name>
+            <Point id="geom_94">
+                <coordinates>149.070301657,-35.4067372136,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
+
