@@ -26,8 +26,11 @@ with open("../data/Public_Toilets_in_the_ACT.csv") as csvfile:
     reader = csv.reader(csvfile)
     reader.next()
     for entry in reader:
-        db_cur.execute("INSERT INTO toilets (asset_id, division_name, location_description, toilet_type_text, location) VALUES (%s, %s, %s, %s, %s)",
-                       (entry[0], entry[1], entry[2], entry[3], Point(entry[4])))
+        db_cur.execute("INSERT INTO pois (location, type) VALUES (%s, %s) RETURNING id",
+                       (Point(entry[4]), 'toilet'))
+        newid = db_cur.fetchone()[0]
+        db_cur.execute("INSERT INTO toilets (id, asset_id, division_name, location_description, toilet_type_text, location) VALUES (%s, %s, %s, %s, %s, %s)",
+                       (newid, entry[0], entry[1], entry[2], entry[3], Point(entry[4])))
 
 db_conn.commit()
 db_cur.close()
