@@ -1,86 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-<<<<<<< HEAD:data/furnitures_seats.kml
     <Document id="feat_1367">
-        <Style id="stylesel_2"/>
-        <Placemark id="feat_1377">
-=======
-    <Document id="feat_1366">
-        <Style id="stylesel_1">
-            <IconStyle id="substyle_2">
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_3">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_1">
+                <Icon id="link_2">
                     <href>http://maps.google.com/mapfiles/kml/pal2/icon20.png</href>
                 </Icon>
             </IconStyle>
         </Style>
-        <Placemark id="feat_1367">
-            <name>TABLE - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1362">
-                <coordinates>149.099384,-35.290487,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1368">
-            <name>TABLE - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1363">
-                <coordinates>149.101185,-35.291811,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1369">
-            <name>TABLE - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1364">
-                <coordinates>149.100726,-35.286899,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1370">
-            <name>TABLE - ACTON - BLACK MOUNTAIN PENINSULA DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1365">
-                <coordinates>149.100758,-35.287323,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1371">
-            <name>TABLE - ACTON - ACTON PARK DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1366">
-                <coordinates>149.124313,-35.286212,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1372">
-            <name>TABLE - ACTON - ACTON PARK DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1367">
-                <coordinates>149.124592,-35.286167,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1373">
-            <name>TABLE - ACTON - ACTON PARK DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1368">
-                <coordinates>149.12466,-35.286167,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1374">
-            <name>TABLE - ACTON - ACTON PARK DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1369">
-                <coordinates>149.124692,-35.286167,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1375">
-            <name>TABLE - ACTON - ACTON PARK DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1370">
-                <coordinates>149.124745,-35.286194,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1376">
->>>>>>> 8a114d79159d1597fdc0bdef390a0bd5398cde50:data/furnitures.kml
+        <Placemark id="feat_1377">
             <name>SEAT - ACTON - ACTON PARK DISTRICT PARK</name>
             <styleUrl>#stylesel_2</styleUrl>
             <Point id="geom_1371">

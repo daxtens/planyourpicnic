@@ -104,4 +104,5 @@ for furniture in furnitures:
             print "Unknown furniture type found:",furniture['feature_type']
         
 
-kml.save("data/furnitures.kml")
+kmltables.save("data/furnitures_tables.kml")
+kmlseats.save("data/furnitures_seats.kml")
