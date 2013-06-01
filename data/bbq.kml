@@ -20,665 +20,665 @@
             <name>BBQ - POINT HUT DISTRICT PARK - GORDON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_0">
-                <coordinates>149.083095204,-35.4573706426,0.0</coordinates>
+                <coordinates>149.084301587,-35.4558113738,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3">
             <name>BBQ - REMEMBERANCE PARK - CAMPBELL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_1">
-                <coordinates>149.149805103,-35.281451139,0.0</coordinates>
+                <coordinates>149.151007726,-35.2798908199,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_4">
             <name>BBQ - REMEMBERANCE PARK - CAMPBELL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_2">
-                <coordinates>149.150068171,-35.2810362536,0.0</coordinates>
+                <coordinates>149.151270784,-35.2794759309,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_5">
             <name>BBQ - EDISON DISTRICT PARK - PHILLIP</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_3">
-                <coordinates>149.08906264,-35.3428999968,0.0</coordinates>
+                <coordinates>149.090267217,-35.3413404151,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_6">
             <name>BBQ - EDISON DISTRICT PARK - PHILLIP</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_4">
-                <coordinates>149.08883167,-35.342918174,0.0</coordinates>
+                <coordinates>149.090036251,-35.3413585947,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
             <name>BBQ - PHILLIP TOWN CENTRE - PHILLIP</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_5">
-                <coordinates>149.081949344,-35.3466176361,0.0</coordinates>
+                <coordinates>149.083154098,-35.3450581334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_8">
             <name>BBQ - PHILLIP TOWN CENTRE - PHILLIP</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_6">
-                <coordinates>149.085711087,-35.3463719788,0.0</coordinates>
+                <coordinates>149.086915773,-35.3448124381,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_9">
             <name>BBQ - GROOM STREET - PEDESTRIAN PARKLAND - HUGHES</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_7">
-                <coordinates>149.087767518,-35.3344290756,0.0</coordinates>
+                <coordinates>149.088971992,-35.3328694883,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_10">
             <name>BBQ - ARALUEN STREET - NEIGHBOURHOOD PARK - FISHER</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_8">
-                <coordinates>149.056075491,-35.3621769784,0.0</coordinates>
+                <coordinates>149.057280921,-35.3606177678,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_11">
             <name>BBQ - LOWANNA STREET - NEIGHBOURHOOD PARK - BRADDON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_9">
-                <coordinates>149.132042737,-35.2663833523,0.0</coordinates>
+                <coordinates>149.133245442,-35.2648231775,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_12">
             <name>BBQ - LOWANNA STREET - NEIGHBOURHOOD PARK - BRADDON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_10">
-                <coordinates>149.132778046,-35.2657517204,0.0</coordinates>
+                <coordinates>149.133980729,-35.2641915369,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_13">
             <name>BBQ - HAIG PARK - TURNER</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_11">
-                <coordinates>149.127236561,-35.2712369226,0.0</coordinates>
+                <coordinates>149.128439421,-35.269676806,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_14">
             <name>BBQ - HAIG PARK - TURNER</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_12">
-                <coordinates>149.125323286,-35.2704907253,0.0</coordinates>
+                <coordinates>149.126526167,-35.2689306261,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_15">
             <name>BBQ - CORROBOREE PARK - AINSLIE</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_13">
-                <coordinates>149.141159475,-35.2705826535,0.0</coordinates>
+                <coordinates>149.142362086,-35.269022397,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_16">
             <name>BBQ - GLEBE PARK - CITY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_14">
-                <coordinates>149.135181584,-35.2850903048,0.0</coordinates>
+                <coordinates>149.136384512,-35.2835301389,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_17">
             <name>BBQ - GLEBE PARK - CITY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_15">
-                <coordinates>149.135443621,-35.2839544447,0.0</coordinates>
+                <coordinates>149.136646527,-35.2823942737,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_18">
             <name>BBQ - GLEBE PARK - CITY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_16">
-                <coordinates>149.13513508,-35.2834500606,0.0</coordinates>
+                <coordinates>149.136337985,-35.2818898916,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_19">
             <name>BBQ - MOLONGLO REACH DISTRICT PARK - CAMPBELL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_17">
-                <coordinates>149.16616354,-35.3061525359,0.0</coordinates>
+                <coordinates>149.167366248,-35.3045921071,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_20">
             <name>BBQ - BLACK MOUNTAIN PENINSULA DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_18">
-                <coordinates>149.100232406,-35.2887446901,0.0</coordinates>
+                <coordinates>149.101435988,-35.2871848797,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_21">
             <name>BBQ - BLACK MOUNTAIN PENINSULA DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_19">
-                <coordinates>149.098380293,-35.2938111439,0.0</coordinates>
+                <coordinates>149.099583982,-35.2922513628,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_22">
             <name>BBQ - BLACK MOUNTAIN PENINSULA DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_20">
-                <coordinates>149.098929216,-35.2931618322,0.0</coordinates>
+                <coordinates>149.100132886,-35.2916020442,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_23">
             <name>BBQ - BLACK MOUNTAIN PENINSULA DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_21">
-                <coordinates>149.099765311,-35.2937470278,0.0</coordinates>
+                <coordinates>149.100968976,-35.2921872328,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_24">
             <name>BBQ - ACTON PARK DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_22">
-                <coordinates>149.123512416,-35.2878687522,0.0</coordinates>
+                <coordinates>149.124715586,-35.2863087083,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_25">
             <name>BBQ - ACTON PARK DISTRICT PARK - ACTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_23">
-                <coordinates>149.123193524,-35.287778927,0.0</coordinates>
+                <coordinates>149.124396697,-35.286218886,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_26">
             <name>BBQ - GINNINDERRA PENINSULA DISTRICT PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_24">
-                <coordinates>149.073003443,-35.2305945236,0.0</coordinates>
+                <coordinates>149.074206633,-35.2290348591,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_27">
             <name>BBQ - DIDDAMS CLOSE PEDESTRIAN PARKLAND - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_25">
-                <coordinates>149.072816788,-35.2306937612,0.0</coordinates>
+                <coordinates>149.074019982,-35.2291340988,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_28">
             <name>BBQ - JOYNTON SMITH DRIVE PEDESTRIAN PARKLAND - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_26">
-                <coordinates>149.061524179,-35.22945541,0.0</coordinates>
+                <coordinates>149.062727549,-35.2278958573,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_29">
             <name>BBQ - LAKE GINNINDERRA WESTERN FORESHORES - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_27">
-                <coordinates>149.062237864,-35.2290224911,0.0</coordinates>
+                <coordinates>149.063441215,-35.2274629303,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_30">
             <name>BBQ - LAKE GINNINDERRA WESTERN FORESHORES - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_28">
-                <coordinates>149.062171843,-35.2288422662,0.0</coordinates>
+                <coordinates>149.063375192,-35.2272827057,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_31">
             <name>BBQ - LAKE GINNINDERRA WESTERN FORESHORES - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_29">
-                <coordinates>149.061985086,-35.2287972842,0.0</coordinates>
+                <coordinates>149.063188438,-35.2272377255,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_32">
             <name>BBQ - LAKE GINNINDERRA WESTERN FORESHORES - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_30">
-                <coordinates>149.062028182,-35.2274994386,0.0</coordinates>
+                <coordinates>149.063231514,-35.2259398767,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_33">
             <name>BBQ - LAKE GINNINDERRA WESTERN FORESHORES - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_31">
-                <coordinates>149.061620988,-35.226264877,0.0</coordinates>
+                <coordinates>149.062824309,-35.2247053164,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_34">
             <name>BBQ - TOTTERDELL STREET PEDESTRIAN PARKLAND - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_32">
-                <coordinates>149.059077492,-35.233980807,0.0</coordinates>
+                <coordinates>149.06028097,-35.2324212883,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_35">
             <name>BBQ - GINNINDERRA PENINSULA DISTRICT PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_33">
-                <coordinates>149.068398648,-35.2272892041,0.0</coordinates>
+                <coordinates>149.069601868,-35.2257295784,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_36">
             <name>BBQ - GINNINDERRA PENINSULA DISTRICT PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_34">
-                <coordinates>149.068211982,-35.2273704092,0.0</coordinates>
+                <coordinates>149.069415207,-35.2258107856,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_37">
             <name>BBQ - JOHN KNIGHT MEMORIAL PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_35">
-                <coordinates>149.072172778,-35.2359575016,0.0</coordinates>
+                <coordinates>149.073376062,-35.2343978569,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_38">
             <name>BBQ - JOHN KNIGHT MEMORIAL PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_36">
-                <coordinates>149.072162065,-35.2363090014,0.0</coordinates>
+                <coordinates>149.073365353,-35.2347493576,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_39">
             <name>BBQ - CARLILE STREET PEDESTRIAN PARKLAND - EVATT</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_37">
-                <coordinates>149.065899995,-35.2196115834,0.0</coordinates>
+                <coordinates>149.067103144,-35.2180519662,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_40">
             <name>BBQ - TATTERSALL CRESCENT NEIGHBOURHOOD PARK - FLOREY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_38">
-                <coordinates>149.055722122,-35.2251406967,0.0</coordinates>
+                <coordinates>149.056925528,-35.2235811924,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_41">
             <name>BBQ - HALL PARK - HALL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_39">
-                <coordinates>149.068491545,-35.1736814551,0.0</coordinates>
+                <coordinates>149.069693973,-35.1721217148,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_42">
             <name>BBQ - HALL PARK - HALL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_40">
-                <coordinates>149.068579115,-35.1733479399,0.0</coordinates>
+                <coordinates>149.069781537,-35.171788198,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_43">
             <name>BBQ - UMBAGONG DISTRICT PARK - LATHAM</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_41">
-                <coordinates>149.029885898,-35.213215032,0.0</coordinates>
+                <coordinates>149.03108957,-35.2116557591,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_44">
             <name>BBQ - UMBAGONG DISTRICT PARK - LATHAM</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_42">
-                <coordinates>149.027646513,-35.2173161738,0.0</coordinates>
+                <coordinates>149.028850284,-35.2157569319,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_45">
             <name>BBQ - UMBAGONG DISTRICT PARK - LATHAM</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_43">
-                <coordinates>149.027778357,-35.2175594968,0.0</coordinates>
+                <coordinates>149.028982129,-35.2160002541,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_46">
             <name>BBQ - MARKS PLACE PEDESTRIAN PARKLAND - MACGREGOR</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_44">
-                <coordinates>149.012896733,-35.2095755934,0.0</coordinates>
+                <coordinates>149.014100643,-35.2080164816,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_47">
             <name>BBQ - HARPER STREET PEDESTRIAN PARKLAND - MACGREGOR</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_45">
-                <coordinates>149.013588841,-35.2148750453,0.0</coordinates>
+                <coordinates>149.014792817,-35.2133159379,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_48">
             <name>BBQ - PALMERVILLE HERITAGE PARK - MCKELLAR</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_46">
-                <coordinates>149.084532185,-35.2135899654,0.0</coordinates>
+                <coordinates>149.085734926,-35.2120301502,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_49">
             <name>BBQ - PALMERVILLE HERITAGE PARK - MCKELLAR</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_47">
-                <coordinates>149.084356233,-35.2133287061,0.0</coordinates>
+                <coordinates>149.085558974,-35.2117688921,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_50">
             <name>BBQ - YERRABI DISTRICT PARK - GUNGAHLIN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_48">
-                <coordinates>149.129433224,-35.18094569,0.0</coordinates>
+                <coordinates>149.130634714,-35.1793853602,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_51">
             <name>BBQ - YERRABI DISTRICT PARK - GUNGAHLIN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_49">
-                <coordinates>149.129674557,-35.1808282846,0.0</coordinates>
+                <coordinates>149.130876041,-35.1792679522,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_52">
             <name>BBQ - YERRABI DISTRICT PARK - GUNGAHLIN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_50">
-                <coordinates>149.129630554,-35.1807652391,0.0</coordinates>
+                <coordinates>149.130832038,-35.1792049069,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_53">
             <name>BBQ - YERRABI DISTRICT PARK - GUNGAHLIN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_51">
-                <coordinates>149.129400251,-35.1809186844,0.0</coordinates>
+                <coordinates>149.130601742,-35.1793583549,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_54">
             <name>BBQ - BAILLIEU LANE PEDESTRIAN PARKLAND - MITCHELL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_52">
-                <coordinates>149.14097794,-35.2194901117,0.0</coordinates>
+                <coordinates>149.1421798,-35.2179297485,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_55">
             <name>BBQ - GRIFFIN PLACE - PEDESTRIAN PARKLAND - MONASH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_53">
-                <coordinates>149.08273084,-35.420032612,0.0</coordinates>
+                <coordinates>149.083936673,-35.4184732634,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_56">
             <name>BBQ - NEWMAN-MORRIS CIRCUIT - NEIGHBOURHOOD PARK - OXLEY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_54">
-                <coordinates>149.077579185,-35.4081392559,0.0</coordinates>
+                <coordinates>149.078784929,-35.4065799324,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_57">
             <name>BBQ - KAMBAH DISTRICT PARK - KAMBAH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_55">
-                <coordinates>149.059327393,-35.3902134567,0.0</coordinates>
+                <coordinates>149.060533184,-35.3886542756,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_58">
             <name>BBQ - KAMBAH DISTRICT PARK - KAMBAH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_56">
-                <coordinates>149.059217296,-35.3901504152,0.0</coordinates>
+                <coordinates>149.060423087,-35.388591235,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_59">
             <name>BBQ - KAMBAH DISTRICT PARK - KAMBAH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_57">
-                <coordinates>149.060936291,-35.3934212092,0.0</coordinates>
+                <coordinates>149.062142101,-35.3918620191,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_60">
             <name>BBQ - KAMBAH DISTRICT PARK - KAMBAH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_58">
-                <coordinates>149.060881386,-35.3936195063,0.0</coordinates>
+                <coordinates>149.0620872,-35.3920603173,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_61">
             <name>BBQ - KAMBAH DISTRICT PARK - KAMBAH</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_59">
-                <coordinates>149.060815422,-35.3937366962,0.0</coordinates>
+                <coordinates>149.06202124,-35.392177508,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_62">
             <name>BBQ - TUGGERANONG TOWN PARK - GREENWAY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_60">
-                <coordinates>149.063524414,-35.4123191317,0.0</coordinates>
+                <coordinates>149.064730462,-35.4107599578,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_63">
             <name>BBQ - POINT HUT DISTRICT PARK - GORDON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_61">
-                <coordinates>149.08349195,-35.457595708,0.0</coordinates>
+                <coordinates>149.08469833,-35.4560364357,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_64">
             <name>BBQ - MARYBOROUGH STREET - PEDESTRIAN PARKLAND - FYSHWICK</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_62">
-                <coordinates>149.175455269,-35.3283560432,0.0</coordinates>
+                <coordinates>149.176658145,-35.3267955697,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_65">
             <name>BBQ - MARYBOROUGH STREET - PEDESTRIAN PARKLAND - FYSHWICK</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_63">
-                <coordinates>149.175378361,-35.328392199,0.0</coordinates>
+                <coordinates>149.176581239,-35.3268317264,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_66">
             <name>BBQ - BEDFORD STREET - NEIGHBOURHOOD PARK - DEAKIN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_64">
-                <coordinates>149.110867564,-35.3197845295,0.0</coordinates>
+                <coordinates>149.112071424,-35.3182246803,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_67">
             <name>BBQ - TELOPEA PARK - BARTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_65">
-                <coordinates>149.136088995,-35.3171921371,0.0</coordinates>
+                <coordinates>149.137292383,-35.3156320312,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_68">
             <name>BBQ - TELOPEA PARK - BARTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_66">
-                <coordinates>149.135989906,-35.317111128,0.0</coordinates>
+                <coordinates>149.137193294,-35.315551023,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_69">
             <name>BBQ - TELOPEA PARK - BARTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_67">
-                <coordinates>149.136582625,-35.3164345644,0.0</coordinates>
+                <coordinates>149.137785993,-35.314874452,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_70">
             <name>BBQ - TELOPEA PARK - BARTON</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_68">
-                <coordinates>149.138940727,-35.3126738253,0.0</coordinates>
+                <coordinates>149.140143999,-35.3111136814,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_71">
             <name>BBQ - ALEXANDRINA DRIVE - PEDESTRIAN PARKLAND - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_69">
-                <coordinates>149.108060757,-35.2994274775,0.0</coordinates>
+                <coordinates>149.109264363,-35.2978676122,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_72">
             <name>BBQ - ALEXANDRINA DRIVE - PEDESTRIAN PARKLAND - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_70">
-                <coordinates>149.109403043,-35.3003005938,0.0</coordinates>
+                <coordinates>149.110606639,-35.298740717,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_73">
             <name>BBQ - LENNOX GARDENS - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_71">
-                <coordinates>149.119880285,-35.3005167822,0.0</coordinates>
+                <coordinates>149.121083704,-35.2989568017,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_74">
             <name>BBQ - LENNOX GARDENS - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_72">
-                <coordinates>149.120243199,-35.3006065756,0.0</coordinates>
+                <coordinates>149.121446613,-35.2990465916,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_75">
             <name>BBQ - LENNOX GARDENS - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_73">
-                <coordinates>149.120605213,-35.3000384508,0.0</coordinates>
+                <coordinates>149.121808613,-35.298478462,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_76">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_74">
-                <coordinates>149.093942829,-35.2972841757,0.0</coordinates>
+                <coordinates>149.095146645,-35.2957244462,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_77">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_75">
-                <coordinates>149.092181871,-35.2952846018,0.0</coordinates>
+                <coordinates>149.093385688,-35.2937248856,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_78">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_76">
-                <coordinates>149.088980621,-35.2929434807,0.0</coordinates>
+                <coordinates>149.090184458,-35.2913837913,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_79">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_77">
-                <coordinates>149.091993771,-35.2940860567,0.0</coordinates>
+                <coordinates>149.093197574,-35.2925263398,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_80">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_78">
-                <coordinates>149.089969423,-35.2924020699,0.0</coordinates>
+                <coordinates>149.091173235,-35.2908423695,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_81">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_79">
-                <coordinates>149.090947201,-35.2918426333,0.0</coordinates>
+                <coordinates>149.092150989,-35.2902829219,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_82">
             <name>BBQ - WESTON PARK - YARRALUMLA</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_80">
-                <coordinates>149.094266644,-35.2915609567,0.0</coordinates>
+                <coordinates>149.09547037,-35.2900012117,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_83">
             <name>BBQ - ELLENBOROUGH STREET - PEDESTRIAN PARKLAND - LYNEHAM</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_81">
-                <coordinates>149.122822209,-35.242238472,0.0</coordinates>
+                <coordinates>149.124024716,-35.2406783373,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_84">
             <name>BBQ - JOHN KNIGHT MEMORIAL PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_82">
-                <coordinates>149.073043312,-35.2394359375,0.0</coordinates>
+                <coordinates>149.074246632,-35.2378762916,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_85">
             <name>BBQ - JOHN KNIGHT MEMORIAL PARK - BELCONNEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_83">
-                <coordinates>149.072999357,-35.2394179353,0.0</coordinates>
+                <coordinates>149.074202677,-35.2378582898,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_86">
             <name>BBQ - VICTORIA STREET ROAD VERGE - HALL</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_84">
-                <coordinates>149.061898695,-35.1629683071,0.0</coordinates>
+                <coordinates>149.063101079,-35.1614086096,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_87">
             <name>BBQ - FADDEN PINES DISTRICT PARK - FADDEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_85">
-                <coordinates>149.119032228,-35.4132187449,0.0</coordinates>
+                <coordinates>149.120237335,-35.4116590189,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_88">
             <name>BBQ - FADDEN PINES DISTRICT PARK - FADDEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_86">
-                <coordinates>149.118821375,-35.4119752241,0.0</coordinates>
+                <coordinates>149.120026467,-35.4104154975,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_89">
             <name>BBQ - FADDEN PINES DISTRICT PARK - FADDEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_87">
-                <coordinates>149.118161514,-35.4124715031,0.0</coordinates>
+                <coordinates>149.119366625,-35.4109117841,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_90">
             <name>BBQ - FADDEN PINES DISTRICT PARK - FADDEN</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_88">
-                <coordinates>149.119879412,-35.4128484635,0.0</coordinates>
+                <coordinates>149.121084499,-35.4112887283,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_91">
             <name>BBQ - CANDLEBARK CLOSE NEIGHBOURHOOD PARK - NICHOLLS</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_89">
-                <coordinates>149.108800332,-35.1939788001,0.0</coordinates>
+                <coordinates>149.110002368,-35.1924187025,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_92">
             <name>BBQ - CANDLEBARK CLOSE NEIGHBOURHOOD PARK - NICHOLLS</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_90">
-                <coordinates>149.108931621,-35.1936001573,0.0</coordinates>
+                <coordinates>149.110133649,-35.1920400576,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_93">
             <name>BBQ - TUGGERANONG TOWN PARK - GREENWAY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_91">
-                <coordinates>149.063887129,-35.4114627892,0.0</coordinates>
+                <coordinates>149.065093157,-35.4099036097,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_94">
             <name>BBQ - LAKE TUGGERANONG DISTRICT PARK - GREENWAY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_92">
-                <coordinates>149.068586779,-35.4099915501,0.0</coordinates>
+                <coordinates>149.069792705,-35.4084323205,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_95">
             <name>BBQ - LAKE TUGGERANONG DISTRICT PARK - GREENWAY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_93">
-                <coordinates>149.069367481,-35.4087744883,0.0</coordinates>
+                <coordinates>149.070573376,-35.4072152481,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_96">
             <name>BBQ - LAKE TUGGERANONG DISTRICT PARK - GREENWAY</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Point id="geom_94">
-                <coordinates>149.070301657,-35.4067372136,0.0</coordinates>
+                <coordinates>149.071507505,-35.4051779596,0.0</coordinates>
             </Point>
         </Placemark>
     </Document>
