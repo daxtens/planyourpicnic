@@ -29,6 +29,7 @@ with open(sys.argv[1]) as csvfile:
       
     bbqs.append((
       line[13], # location name
+      line[12], # suburb ("contract unit")
       lat,
       lon,
       line[8], # Hotplate type
