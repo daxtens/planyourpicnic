@@ -1,6 +1,6 @@
 "use strict"
 
-var HOSTNAME = "planyourpicnic.dja.id.au"
+var HOSTNAME = "tessereth.dja.id.au"
 
 var layers = {};
 var layersVisible = {};
@@ -42,13 +42,15 @@ function initialize() {
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.toilets = false;
+  layersVisible.toilets = true;
+  layers.toilets.setMap(map);
+  alert("Toilets visible");
 
-  layers.playgrounds = new google.maps.KmlLayer({
+  /*layers.playgrounds = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/playgrounds.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.playgrounds = false;
+  layersVisible.playgrounds = false;*/
 
 }
 
