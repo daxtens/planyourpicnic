@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/">Plan your Picnic!</a>
+          <a class="brand" href="/">Plan Your Picnic!</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li {{! 'class="active"' if active == "plan" else ''}}><a href="/">Plan</a></li>
