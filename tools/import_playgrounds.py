@@ -26,8 +26,11 @@ with open("../data/Playgrounds_in_the_ACT.csv") as csvfile:
     reader = csv.reader(csvfile)
     reader.next()
     for entry in reader:
-        db_cur.execute("INSERT INTO playgrounds (asset_id, division_name, surface_type, area, perimeter, location) VALUES (%s, %s, %s, %s, %s, %s)",
-                       (entry[0], entry[1], entry[2], int(entry[3]), int(entry[4]), Point(entry[5])))
+        db_cur.execute("INSERT INTO pois (location, type) VALUES (%s, %s) RETURNING id",
+                       (Point(entry[5]), 'playground'))
+        newid = db_cur.fetchone()[0]
+        db_cur.execute("INSERT INTO playgrounds (id, asset_id, division_name, surface_type, area, perimeter, location) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                       (newid, entry[0], entry[1], entry[2], int(entry[3]), int(entry[4]), Point(entry[5])))
 
 db_conn.commit()
 db_cur.close()
