@@ -24,6 +24,7 @@ db_cur = db_conn.cursor()
 
 with open("../data/Public_Toilets_in_the_ACT.csv") as csvfile:
     reader = csv.reader(csvfile)
+    #skip column labels line
     reader.next()
     for entry in reader:
         db_cur.execute("INSERT INTO pois (location, type) VALUES (%s, %s) RETURNING id",
