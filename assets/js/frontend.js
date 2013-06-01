@@ -26,17 +26,17 @@ function initialize() {
   layers.BBQ.setMap(map);
 
   layers.seats = new google.maps.KmlLayer({
-    url: 'http://'+HOSTNAME+'/data/publicfurniture.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/furnitures_seats.kml?random=' + nonce,
     preserveViewport: true
   });
   layersVisible.seats = true;
   layers.seats.setMap(map);
 
   layers.tables = new google.maps.KmlLayer({
-    url: 'http://'+HOSTNAME+'/data/tables.kml?random=' + nonce,
+    url: 'http://'+HOSTNAME+'/data/furnitures_tables.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.tables = false;
+  layersVisible.tables = true;
 
   layers.toilets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
