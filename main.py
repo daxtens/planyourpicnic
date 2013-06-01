@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import bottle
-import os
+import os, sys
 
 
 @bottle.route('/')
