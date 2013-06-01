@@ -19,19 +19,19 @@ cur = d.cursor()
 # Styles
 bbq_style = simplekml.Style()
 bbq_style.labelstyle.color = 'ff0000ff'  # Red
-bbq_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedept.png'
+bbq_style.iconstyle.icon.href= 'http://planyourpicnic.dja.id.au/assets/img/barbecue.png'
 
 furniture_table_style = simplekml.Style()
 furniture_seat_style = simplekml.Style()
-furniture_table_style.iconstyle.icon.href="http://maps.google.com/mapfiles/kml/pal2/icon20.png"
-furniture_seat_style.iconstyle.icon.href="http://maps.google.com/mapfiles/kml/pal2/icon20.png"
+furniture_table_style.iconstyle.icon.href="http://planyourpicnic.dja.id.au/assets/img/picnic.png"
+furniture_seat_style.iconstyle.icon.href="http://planyourpicnic.dja.id.au/assets/img/picnic.png" # for want of a better seat image
 
 toilet_style = simplekml.Style()
 toilet_style.labelstyle.color = 'ff0000ff'  # Red
-toilet_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/toilets.png'
+toilet_style.iconstyle.icon.href= 'http://planyourpicnic.dja.id.au/assets/img/toilets.png'
 
 playground_style = simplekml.Style()
-playground_style.iconstyle.icon.href="http://labs.google.com/ridefinder/images/mm_20_yellow.png"
+playground_style.iconstyle.icon.href="http://planyourpicnic.dja.id.au/assets/img/playground.png"
 
 
 
