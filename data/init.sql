@@ -1,202 +1,454 @@
-INSERT INTO pois (id, location, type) VALUES (0, '-35.45737064261896, 149.08309520402537', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (0, 'POINT HUT DISTRICT PARK', 'GORDON', '-35.45737064261896, 149.08309520402537', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (1, '-35.281451138989425, 149.14980510290192', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (1, 'REMEMBERANCE PARK', 'CAMPBELL', '-35.281451138989425, 149.14980510290192', 'ELECTRIC', 2, FALSE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (2, '-35.28103625357118, 149.15006817119664', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (2, 'REMEMBERANCE PARK', 'CAMPBELL', '-35.28103625357118, 149.15006817119664', 'ELECTRIC', 2, NULL, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (3, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (3, 'TELOPEA PARK', 'BARTON SOUTH', NULL, 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (4, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (4, 'BOWEN PARK', 'BARTON SOUTH', NULL, 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (5, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (5, 'MOLONGLO REACH WATER SKI', 'FYSHWICK', NULL, 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (6, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (6, 'MOLONGLO REACH WATER SKI', 'FYSHWICK', NULL, 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (7, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (7, 'JAMES HARRISON STREET NEIGHBOURHOOD PARK', 'DUNLOP', NULL, 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (8, '-35.342899996818296, 149.08906264044825', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (8, 'EDISON DISTRICT PARK', 'PHILLIP', '-35.342899996818296, 149.08906264044825', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (9, '-35.3429181740362, 149.0888316704444', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (9, 'EDISON DISTRICT PARK', 'PHILLIP', '-35.3429181740362, 149.0888316704444', 'ELECTRIC', 1, TRUE, 'CONCRETE', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (10, '-35.34661763611248, 149.0819493439275', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (10, 'PHILLIP TOWN CENTRE', 'PHILLIP', '-35.34661763611248, 149.0819493439275', 'ELECTRIC', 2, FALSE, 'BRICK', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (11, '-35.34637197882621, 149.08571108669096', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (11, 'PHILLIP TOWN CENTRE', 'PHILLIP', '-35.34637197882621, 149.08571108669096', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (12, '-35.33442907559154, 149.08776751829365', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (12, 'GROOM STREET - PEDESTRIAN PARKLAND', 'HUGHES', '-35.33442907559154, 149.08776751829365', 'WOOD', 2, FALSE, 'CONCRETE', FALSE, 'LOW', NULL);
-INSERT INTO pois (id, location, type) VALUES (13, '-35.36217697840341, 149.05607549139197', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (13, 'ARALUEN STREET - NEIGHBOURHOOD PARK', 'FISHER', '-35.36217697840341, 149.05607549139197', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (14, '-35.26638335229035, 149.1320427370237', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (14, 'LOWANNA STREET - NEIGHBOURHOOD PARK', 'BRADDON', '-35.26638335229035, 149.1320427370237', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (15, '-35.26575172039858, 149.13277804596848', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (15, 'LOWANNA STREET - NEIGHBOURHOOD PARK', 'BRADDON', '-35.26575172039858, 149.13277804596848', 'ELECTRIC', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (16, '-35.27123692260874, 149.12723656090068', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (16, 'HAIG PARK', 'TURNER', '-35.27123692260874, 149.12723656090068', 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (17, '-35.27049072528009, 149.12532328560332', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (17, 'HAIG PARK', 'TURNER', '-35.27049072528009, 149.12532328560332', 'ELECTRIC', 2, TRUE, 'TILE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (18, '-35.27058265349084, 149.1411594746599', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (18, 'CORROBOREE PARK', 'AINSLIE', '-35.27058265349084, 149.1411594746599', 'ELECTRIC', 2, FALSE, 'STEEL', FALSE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (19, '-35.28509030481664, 149.1351815842968', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (19, 'GLEBE PARK', 'CITY', '-35.28509030481664, 149.1351815842968', 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (20, '-35.28395444468796, 149.1354436206887', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (20, 'GLEBE PARK', 'CITY', '-35.28395444468796, 149.1354436206887', 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (21, '-35.283450060571695, 149.13513508006588', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (21, 'GLEBE PARK', 'CITY', '-35.283450060571695, 149.13513508006588', 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (22, '-35.30615253588544, 149.16616354036455', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (22, 'MOLONGLO REACH DISTRICT PARK', 'CAMPBELL', '-35.30615253588544, 149.16616354036455', 'ELECTRIC', 2, FALSE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (23, '-35.288744690132965, 149.1002324055555', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (23, 'BLACK MOUNTAIN PENINSULA DISTRICT PARK', 'ACTON', '-35.288744690132965, 149.1002324055555', 'ELECTRIC', 2, FALSE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (24, '-35.29381114394521, 149.09838029323365', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (24, 'BLACK MOUNTAIN PENINSULA DISTRICT PARK', 'ACTON', '-35.29381114394521, 149.09838029323365', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (25, '-35.29316183216673, 149.09892921608628', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (25, 'BLACK MOUNTAIN PENINSULA DISTRICT PARK', 'ACTON', '-35.29316183216673, 149.09892921608628', 'ELECTRIC', 2, FALSE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (26, '-35.29374702782616, 149.099765311383', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (26, 'BLACK MOUNTAIN PENINSULA DISTRICT PARK', 'ACTON', '-35.29374702782616, 149.099765311383', 'ELECTRIC', 2, TRUE, 'STEEL', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (27, '-35.28786875223458, 149.12351241642114', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (27, 'ACTON PARK DISTRICT PARK', 'ACTON', '-35.28786875223458, 149.12351241642114', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (28, '-35.28777892699244, 149.12319352355036', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (28, 'ACTON PARK DISTRICT PARK', 'ACTON', '-35.28777892699244, 149.12319352355036', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (29, '-35.23059452357089, 149.07300344272267', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (29, 'GINNINDERRA PENINSULA DISTRICT PARK', 'BELCONNEN', '-35.23059452357089, 149.07300344272267', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (30, '-35.23069376116979, 149.0728167879597', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (30, 'DIDDAMS CLOSE PEDESTRIAN PARKLAND', 'BELCONNEN', '-35.23069376116979, 149.0728167879597', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (31, '-35.229455410003276, 149.06152417934112', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (31, 'JOYNTON SMITH DRIVE PEDESTRIAN PARKLAND', 'BELCONNEN', '-35.229455410003276, 149.06152417934112', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (32, '-35.22902249108845, 149.06223786390981', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (32, 'LAKE GINNINDERRA WESTERN FORESHORES', 'BELCONNEN', '-35.22902249108845, 149.06223786390981', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'CAST_IRON');
-INSERT INTO pois (id, location, type) VALUES (33, '-35.228842266236164, 149.0621718427946', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (33, 'LAKE GINNINDERRA WESTERN FORESHORES', 'BELCONNEN', '-35.228842266236164, 149.0621718427946', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (34, '-35.228797284241935, 149.06198508560138', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (34, 'LAKE GINNINDERRA WESTERN FORESHORES', 'BELCONNEN', '-35.228797284241935, 149.06198508560138', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'NONE', 'DUAL');
-INSERT INTO pois (id, location, type) VALUES (35, '-35.22749943859961, 149.06202818186748', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (35, 'LAKE GINNINDERRA WESTERN FORESHORES', 'BELCONNEN', '-35.22749943859961, 149.06202818186748', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (36, '-35.22626487696531, 149.06162098773459', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (36, 'LAKE GINNINDERRA WESTERN FORESHORES', 'BELCONNEN', '-35.22626487696531, 149.06162098773459', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'CAST_IRON');
-INSERT INTO pois (id, location, type) VALUES (37, '-35.23398080702988, 149.059077491885', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (37, 'TOTTERDELL STREET PEDESTRIAN PARKLAND', 'BELCONNEN', '-35.23398080702988, 149.059077491885', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (38, '-35.227289204066544, 149.06839864816337', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (38, 'GINNINDERRA PENINSULA DISTRICT PARK', 'BELCONNEN', '-35.227289204066544, 149.06839864816337', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (39, '-35.22737040924885, 149.06821198231674', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (39, 'GINNINDERRA PENINSULA DISTRICT PARK', 'BELCONNEN', '-35.22737040924885, 149.06821198231674', 'ELECTRIC', 2, TRUE, 'CONCRETE', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (40, '-35.23595750157838, 149.07217277845177', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (40, 'JOHN KNIGHT MEMORIAL PARK', 'BELCONNEN', '-35.23595750157838, 149.07217277845177', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (41, '-35.23630900143666, 149.07216206469843', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (41, 'JOHN KNIGHT MEMORIAL PARK', 'BELCONNEN', '-35.23630900143666, 149.07216206469843', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (42, '-35.21961158341024, 149.06589999464063', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (42, 'CARLILE STREET PEDESTRIAN PARKLAND', 'EVATT', '-35.21961158341024, 149.06589999464063', 'ELECTRIC', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (43, '-35.22514069670089, 149.05572212227975', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (43, 'TATTERSALL CRESCENT NEIGHBOURHOOD PARK', 'FLOREY', '-35.22514069670089, 149.05572212227975', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (44, '-35.173681455139146, 149.06849154451115', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (44, 'HALL PARK', 'HALL', '-35.173681455139146, 149.06849154451115', 'WOOD', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (45, '-35.17334793990527, 149.06857911506222', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (45, 'HALL PARK', 'HALL', '-35.17334793990527, 149.06857911506222', 'WOOD', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (46, '-35.21321503201417, 149.0298858977006', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (46, 'UMBAGONG DISTRICT PARK', 'LATHAM', '-35.21321503201417, 149.0298858977006', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (47, '-35.21731617383421, 149.02764651254313', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (47, 'UMBAGONG DISTRICT PARK', 'LATHAM', '-35.21731617383421, 149.02764651254313', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (48, '-35.21755949677854, 149.0277783571634', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (48, 'UMBAGONG DISTRICT PARK', 'LATHAM', '-35.21755949677854, 149.0277783571634', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'TAP', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (49, '-35.20957559336832, 149.01289673339048', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (49, 'MARKS PLACE PEDESTRIAN PARKLAND', 'MACGREGOR', '-35.20957559336832, 149.01289673339048', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (50, '-35.21487504526508, 149.0135888414269', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (50, 'HARPER STREET PEDESTRIAN PARKLAND', 'MACGREGOR', '-35.21487504526508, 149.0135888414269', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'NONE', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (51, '-35.21358996541761, 149.08453218506432', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (51, 'PALMERVILLE HERITAGE PARK', 'MCKELLAR', '-35.21358996541761, 149.08453218506432', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (52, '-35.21332870611908, 149.0843562333795', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (52, 'PALMERVILLE HERITAGE PARK', 'MCKELLAR', '-35.21332870611908, 149.0843562333795', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (53, '-35.18094568997232, 149.12943322378052', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (53, 'YERRABI DISTRICT PARK', 'GUNGAHLIN', '-35.18094568997232, 149.12943322378052', 'ELECTRIC', 1, FALSE, 'STEEL', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (54, '-35.180828284588884, 149.1296745568289', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (54, 'YERRABI DISTRICT PARK', 'GUNGAHLIN', '-35.180828284588884, 149.1296745568289', 'ELECTRIC', 1, FALSE, 'STEEL', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (55, '-35.1807652390512, 149.1296305537608', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (55, 'YERRABI DISTRICT PARK', 'GUNGAHLIN', '-35.1807652390512, 149.1296305537608', 'ELECTRIC', 1, TRUE, 'STEEL', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (56, '-35.18091868441728, 149.1294002513962', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (56, 'YERRABI DISTRICT PARK', 'GUNGAHLIN', '-35.18091868441728, 149.1294002513962', 'ELECTRIC', 1, TRUE, 'STEEL', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (57, '-35.219490111672215, 149.1409779398723', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (57, 'BAILLIEU LANE PEDESTRIAN PARKLAND', 'MITCHELL', '-35.219490111672215, 149.1409779398723', 'GAS', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (58, '-35.42003261198098, 149.0827308402124', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (58, 'GRIFFIN PLACE - PEDESTRIAN PARKLAND', 'MONASH', '-35.42003261198098, 149.0827308402124', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (59, '-35.408139255948974, 149.07757918508935', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (59, 'NEWMAN-MORRIS CIRCUIT - NEIGHBOURHOOD PARK', 'OXLEY', '-35.408139255948974, 149.07757918508935', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (60, '-35.390213456738884, 149.059327392895', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (60, 'KAMBAH DISTRICT PARK', 'KAMBAH', '-35.390213456738884, 149.059327392895', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (61, '-35.390150415169394, 149.05921729562516', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (61, 'KAMBAH DISTRICT PARK', 'KAMBAH', '-35.390150415169394, 149.05921729562516', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (62, '-35.39342120919123, 149.06093629069255', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (62, 'KAMBAH DISTRICT PARK', 'KAMBAH', '-35.39342120919123, 149.06093629069255', 'ELECTRIC', 2, FALSE, 'STEEL', TRUE, 'BOX', NULL);
-INSERT INTO pois (id, location, type) VALUES (63, '-35.393619506322985, 149.06088138558704', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (63, 'KAMBAH DISTRICT PARK', 'KAMBAH', '-35.393619506322985, 149.06088138558704', 'ELECTRIC', 2, FALSE, 'STEEL', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (64, '-35.393736696185506, 149.06081542229433', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (64, 'KAMBAH DISTRICT PARK', 'KAMBAH', '-35.393736696185506, 149.06081542229433', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (65, '-35.41231913171552, 149.06352441425855', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (65, 'TUGGERANONG TOWN PARK', 'GREENWAY', '-35.41231913171552, 149.06352441425855', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (66, '-35.457595707986066, 149.0834919499188', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (66, 'POINT HUT DISTRICT PARK', 'GORDON', '-35.457595707986066, 149.0834919499188', 'ELECTRIC', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (67, '-35.32835604318044, 149.17545526911474', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (67, 'MARYBOROUGH STREET - PEDESTRIAN PARKLAND', 'FYSHWICK', '-35.32835604318044, 149.17545526911474', 'ELECTRIC', 1, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (68, '-35.328392198954376, 149.17537836100448', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (68, 'MARYBOROUGH STREET - PEDESTRIAN PARKLAND', 'FYSHWICK', '-35.328392198954376, 149.17537836100448', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (69, '-35.319784529498286, 149.11086756430961', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (69, 'BEDFORD STREET - NEIGHBOURHOOD PARK', 'DEAKIN', '-35.319784529498286, 149.11086756430961', 'GAS', 2, TRUE, 'CONCRETE', TRUE, 'WALL', 'CAST_IRON');
-INSERT INTO pois (id, location, type) VALUES (70, '-35.317192137093954, 149.13608899540762', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (70, 'TELOPEA PARK', 'BARTON', '-35.317192137093954, 149.13608899540762', 'ELECTRIC', 2, FALSE, 'STEEL', TRUE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (71, '-35.31711112802666, 149.13598990567058', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (71, 'TELOPEA PARK', 'BARTON', '-35.31711112802666, 149.13598990567058', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (72, '-35.31643456443724, 149.13658262529796', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (72, 'TELOPEA PARK', 'BARTON', '-35.31643456443724, 149.13658262529796', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (73, '-35.312673825341506, 149.13894072705975', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (73, 'TELOPEA PARK', 'BARTON', '-35.312673825341506, 149.13894072705975', 'GAS', 2, TRUE, 'CONCRETE', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (74, '-35.299427477463105, 149.10806075684857', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (74, 'ALEXANDRINA DRIVE - PEDESTRIAN PARKLAND', 'YARRALUMLA', '-35.299427477463105, 149.10806075684857', 'GAS', 2, TRUE, 'STEEL', FALSE, 'LOCK', NULL);
-INSERT INTO pois (id, location, type) VALUES (75, '-35.30030059379762, 149.10940304307266', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (75, 'ALEXANDRINA DRIVE - PEDESTRIAN PARKLAND', 'YARRALUMLA', '-35.30030059379762, 149.10940304307266', 'GAS', 2, TRUE, 'STEEL', FALSE, 'LOCK', NULL);
-INSERT INTO pois (id, location, type) VALUES (76, '-35.300516782223745, 149.11988028527622', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (76, 'LENNOX GARDENS', 'YARRALUMLA', '-35.300516782223745, 149.11988028527622', 'ELECTRIC', 2, FALSE, 'CONCRETE', FALSE, 'LOCK', NULL);
-INSERT INTO pois (id, location, type) VALUES (77, '-35.30060657559404, 149.12024319922125', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (77, 'LENNOX GARDENS', 'YARRALUMLA', '-35.30060657559404, 149.12024319922125', 'ELECTRIC', 2, FALSE, 'CONCRETE', FALSE, 'NONE', NULL);
-INSERT INTO pois (id, location, type) VALUES (78, '-35.300038450767865, 149.1206052130071', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (78, 'LENNOX GARDENS', 'YARRALUMLA', '-35.300038450767865, 149.1206052130071', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (79, '-35.29728417565665, 149.09394282856493', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (79, 'WESTON PARK', 'YARRALUMLA', '-35.29728417565665, 149.09394282856493', 'GAS', 2, TRUE, 'CONCRETE', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (80, '-35.29528460181499, 149.09218187080137', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (80, 'WESTON PARK', 'YARRALUMLA', '-35.29528460181499, 149.09218187080137', 'GAS', 2, TRUE, 'CONCRETE', TRUE, 'TAP_WALL', 'DUAL');
-INSERT INTO pois (id, location, type) VALUES (81, '-35.29294348070529, 149.08898062082815', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (81, 'WESTON PARK', 'YARRALUMLA', '-35.29294348070529, 149.08898062082815', 'ELECTRIC', 2, TRUE, 'CONCRETE', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (82, '-35.2940860567021, 149.09199377108604', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (82, 'WESTON PARK', 'YARRALUMLA', '-35.2940860567021, 149.09199377108604', 'ELECTRIC', 2, TRUE, 'STEEL', TRUE, 'WALL', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (83, '-35.2924020699275, 149.08996942279038', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (83, 'WESTON PARK', 'YARRALUMLA', '-35.2924020699275, 149.08996942279038', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (84, '-35.29184263328922, 149.09094720097067', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (84, 'WESTON PARK', 'YARRALUMLA', '-35.29184263328922, 149.09094720097067', 'GAS', 2, TRUE, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (85, '-35.291560956685665, 149.09426664409975', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (85, 'WESTON PARK', 'YARRALUMLA', '-35.291560956685665, 149.09426664409975', 'GAS', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (86, '-35.242238471960455, 149.1228222090476', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (86, 'ELLENBOROUGH STREET - PEDESTRIAN PARKLAND', 'LYNEHAM', '-35.242238471960455, 149.1228222090476', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (87, '-35.2394359375419, 149.07304331232157', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (87, 'JOHN KNIGHT MEMORIAL PARK', 'BELCONNEN', '-35.2394359375419, 149.07304331232157', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP_WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (88, '-35.23941793534658, 149.07299935650863', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (88, 'JOHN KNIGHT MEMORIAL PARK', 'BELCONNEN', '-35.23941793534658, 149.07299935650863', 'ELECTRIC', 1, TRUE, 'CONCRETE', TRUE, 'WALL', NULL);
-INSERT INTO pois (id, location, type) VALUES (89, '-35.16296830708231, 149.06189869543797', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (89, 'VICTORIA STREET ROAD VERGE', 'HALL', '-35.16296830708231, 149.06189869543797', 'WOOD', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (90, '-35.413218744860856, 149.11903222764903', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (90, 'FADDEN PINES DISTRICT PARK', 'FADDEN', '-35.413218744860856, 149.11903222764903', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (91, '-35.411975224087755, 149.1188213747372', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (91, 'FADDEN PINES DISTRICT PARK', 'FADDEN', '-35.411975224087755, 149.1188213747372', 'ELECTRIC', 2, FALSE, 'CONCRETE', FALSE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (92, '-35.412471503070165, 149.1181615144885', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (92, 'FADDEN PINES DISTRICT PARK', 'FADDEN', '-35.412471503070165, 149.1181615144885', 'ELECTRIC', 2, FALSE, 'CONCRETE', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (93, '-35.41284846351037, 149.11987941200383', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (93, 'FADDEN PINES DISTRICT PARK', 'FADDEN', '-35.41284846351037, 149.11987941200383', 'ELECTRIC', 2, TRUE, 'CONCRETE', TRUE, 'TAP', 'ALUMINIUM');
-INSERT INTO pois (id, location, type) VALUES (94, '-35.19397880009252, 149.10880033186908', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (94, 'CANDLEBARK CLOSE NEIGHBOURHOOD PARK', 'NICHOLLS', '-35.19397880009252, 149.10880033186908', 'ELECTRIC', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (95, '-35.193600157294995, 149.10893162126092', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (95, 'CANDLEBARK CLOSE NEIGHBOURHOOD PARK', 'NICHOLLS', '-35.193600157294995, 149.10893162126092', 'ELECTRIC', 2, FALSE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (96, '-35.411462789163856, 149.06388712867113', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (96, 'TUGGERANONG TOWN PARK', 'GREENWAY', '-35.411462789163856, 149.06388712867113', 'ELECTRIC', 2, NULL, 'STEEL', TRUE, 'TAP', NULL);
-INSERT INTO pois (id, location, type) VALUES (97, '-35.409991550137114, 149.06858677881831', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (97, 'LAKE TUGGERANONG DISTRICT PARK', 'GREENWAY', '-35.409991550137114, 149.06858677881831', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (98, '-35.40877448827168, 149.06936748131807', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (98, 'LAKE TUGGERANONG DISTRICT PARK', 'GREENWAY', '-35.40877448827168, 149.06936748131807', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (99, '-35.406737213589736, 149.070301657102', 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (99, 'LAKE TUGGERANONG DISTRICT PARK', 'GREENWAY', '-35.406737213589736, 149.070301657102', 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
-INSERT INTO pois (id, location, type) VALUES (100, NULL, 'bbq');
-INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (100, 'BUNYA CLOSE PEDESTRIAN PARKLAND', 'PALMERSTON', NULL, 'ELECTRIC', 2, TRUE, NULL, NULL, NULL, NULL);
+
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+SET search_path = public, pg_catalog;
+
+ALTER TABLE ONLY public.pois DROP CONSTRAINT pois_pkey;
+ALTER TABLE ONLY public.bbqs DROP CONSTRAINT bbqs_pkey;
+ALTER TABLE public.pois ALTER COLUMN id DROP DEFAULT;
+DROP SEQUENCE public.pois_id_seq;
+DROP TABLE public.pois;
+DROP TABLE public.bbqs;
+DROP TYPE public.poi_type;
+DROP TYPE public.bbq_type;
+DROP TYPE public.bbq_hotplate_material;
+DROP TYPE public.bbq_climb_access;
+DROP TYPE public.bbq_bench_type;
+DROP EXTENSION plpgsql;
+DROP SCHEMA public;
+--
+-- Name: public; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA public;
+
+
+ALTER SCHEMA public OWNER TO postgres;
+
+--
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+--
+-- Name: bbq_bench_type; Type: TYPE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE TYPE bbq_bench_type AS ENUM (
+    'STEEL',
+    'CONCRETE',
+    'BRICK',
+    'TILE'
+);
+
+
+ALTER TYPE public.bbq_bench_type OWNER TO planyourpicnic;
+
+--
+-- Name: bbq_climb_access; Type: TYPE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE TYPE bbq_climb_access AS ENUM (
+    'NONE',
+    'TAP',
+    'WALL',
+    'LOW',
+    'TAP_WALL',
+    'BOX',
+    'LOCK'
+);
+
+
+ALTER TYPE public.bbq_climb_access OWNER TO planyourpicnic;
+
+--
+-- Name: bbq_hotplate_material; Type: TYPE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE TYPE bbq_hotplate_material AS ENUM (
+    'CAST_IRON',
+    'ALUMINIUM',
+    'DUAL'
+);
+
+
+ALTER TYPE public.bbq_hotplate_material OWNER TO planyourpicnic;
+
+--
+-- Name: bbq_type; Type: TYPE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE TYPE bbq_type AS ENUM (
+    'ELECTRIC',
+    'GAS',
+    'WOOD'
+);
+
+
+ALTER TYPE public.bbq_type OWNER TO planyourpicnic;
+
+--
+-- Name: poi_type; Type: TYPE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE TYPE poi_type AS ENUM (
+    'bbq',
+    'toilet',
+    'playground',
+    'furniture',
+    'attraction'
+);
+
+
+ALTER TYPE public.poi_type OWNER TO planyourpicnic;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: bbqs; Type: TABLE; Schema: public; Owner: planyourpicnic; Tablespace: 
+--
+
+CREATE TABLE bbqs (
+    id integer NOT NULL,
+    name character varying(64),
+    suburb character varying(32),
+    location point,
+    type bbq_type,
+    hotplates integer,
+    tap boolean,
+    bench_type bbq_bench_type,
+    wired_door boolean,
+    climb_access bbq_climb_access,
+    hotplate_material bbq_hotplate_material
+);
+
+
+ALTER TABLE public.bbqs OWNER TO planyourpicnic;
+
+--
+-- Name: pois; Type: TABLE; Schema: public; Owner: planyourpicnic; Tablespace: 
+--
+
+CREATE TABLE pois (
+    id integer NOT NULL,
+    location point,
+    type poi_type NOT NULL
+);
+
+
+ALTER TABLE public.pois OWNER TO planyourpicnic;
+
+--
+-- Name: pois_id_seq; Type: SEQUENCE; Schema: public; Owner: planyourpicnic
+--
+
+CREATE SEQUENCE pois_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.pois_id_seq OWNER TO planyourpicnic;
+
+--
+-- Name: pois_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: planyourpicnic
+--
+
+ALTER SEQUENCE pois_id_seq OWNED BY pois.id;
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: planyourpicnic
+--
+
+ALTER TABLE ONLY pois ALTER COLUMN id SET DEFAULT nextval('pois_id_seq'::regclass);
+
+
+--
+-- Data for Name: bbqs; Type: TABLE DATA; Schema: public; Owner: planyourpicnic
+--
+
+COPY bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) FROM stdin;
+\.
+
+
+--
+-- Data for Name: pois; Type: TABLE DATA; Schema: public; Owner: planyourpicnic
+--
+
+COPY pois (id, location, type) FROM stdin;
+\.
+
+
+--
+-- Name: pois_id_seq; Type: SEQUENCE SET; Schema: public; Owner: planyourpicnic
+--
+
+SELECT pg_catalog.setval('pois_id_seq', 1, false);
+
+
+--
+-- Name: bbqs_pkey; Type: CONSTRAINT; Schema: public; Owner: planyourpicnic; Tablespace: 
+--
+
+ALTER TABLE ONLY bbqs
+    ADD CONSTRAINT bbqs_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: pois_pkey; Type: CONSTRAINT; Schema: public; Owner: planyourpicnic; Tablespace: 
+--
+
+ALTER TABLE ONLY pois
+    ADD CONSTRAINT pois_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
+
+INSERT INTO pois (id, location, type) VALUES (0, 'IIT_PRIMARY_KEY, IIT_ADMIN_UNIT', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (0, 'IIT_NE_ID', 'IIT_INV_TYPE', 'IIT_PRIMARY_KEY, IIT_ADMIN_UNIT', 'BBQ_ASSET_ID', 2, NULL, 'BBQ_Y_POS', NULL, 'BBQ_HOTPLATE', 'LU_NUMBER');
+INSERT INTO pois (id, location, type) VALUES (1, 'BBQ123, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (1, '4,325,150', 'BBQ', 'BBQ123, 18', 'BBQ123', 2, NULL, '584,504', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (2, 'BBQ105, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (2, '4,223,956', 'BBQ', 'BBQ105, 18', 'BBQ105', 2, NULL, '604,017', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (3, 'BBQ106, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (3, '4,223,982', 'BBQ', 'BBQ106, 18', 'BBQ106', 2, NULL, '604,063', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (4, 'BBQ125, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (4, '5,823,000', 'BBQ', 'BBQ125, 18', 'BBQ125', 2, NULL, NULL, NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (5, 'BBQ126, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (5, '5,823,001', 'BBQ', 'BBQ126, 18', 'BBQ126', 2, NULL, NULL, NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (6, 'BBQ127, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (6, '5,823,003', 'BBQ', 'BBQ127, 18', 'BBQ127', 2, NULL, NULL, NULL, 'DOUBLE', '302');
+INSERT INTO pois (id, location, type) VALUES (7, 'BBQ128, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (7, '5,823,004', 'BBQ', 'BBQ128, 18', 'BBQ128', 2, NULL, NULL, NULL, 'DOUBLE', '300');
+INSERT INTO pois (id, location, type) VALUES (8, 'BBQ130, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (8, '6,050,715', 'BBQ', 'BBQ130, 18', 'BBQ130', 2, NULL, NULL, NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (9, 'BBQ1, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (9, '2,524,152', 'BBQ', 'BBQ1, 18', 'BBQ1', 2, NULL, '597,205', NULL, 'DOUBLE', '236');
+INSERT INTO pois (id, location, type) VALUES (10, 'BBQ2, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (10, '2,524,153', 'BBQ', 'BBQ2, 18', 'BBQ2', 2, NULL, '597,203', NULL, 'SINGLE', '235');
+INSERT INTO pois (id, location, type) VALUES (11, 'BBQ3, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (11, '2,524,154', 'BBQ', 'BBQ3, 18', 'BBQ3', 2, NULL, '596,793', NULL, 'DOUBLE', '240');
+INSERT INTO pois (id, location, type) VALUES (12, 'BBQ4, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (12, '2,524,155', 'BBQ', 'BBQ4, 18', 'BBQ4', 2, NULL, '596,820', NULL, 'DOUBLE', '238');
+INSERT INTO pois (id, location, type) VALUES (13, 'BBQ5, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (13, '2,524,156', 'BBQ', 'BBQ5, 18', 'BBQ5', 2, NULL, '598,145', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (14, 'BBQ6, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (14, '2,524,157', 'BBQ', 'BBQ6, 18', 'BBQ6', 2, NULL, '595,068', NULL, 'DOUBLE', '275');
+INSERT INTO pois (id, location, type) VALUES (15, 'BBQ7, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (15, '2,524,158', 'BBQ', 'BBQ7, 18', 'BBQ7', 2, NULL, '605,691', NULL, 'DOUBLE', '86');
+INSERT INTO pois (id, location, type) VALUES (16, 'BBQ8, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (16, '2,524,159', 'BBQ', 'BBQ8, 18', 'BBQ8', 2, NULL, '605,761', NULL, 'DOUBLE', '82');
+INSERT INTO pois (id, location, type) VALUES (17, 'BBQ12, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (17, '2,524,163', 'BBQ', 'BBQ12, 18', 'BBQ12', 2, NULL, '605,153', NULL, 'DOUBLE', '48');
+INSERT INTO pois (id, location, type) VALUES (18, 'BBQ13, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (18, '2,524,164', 'BBQ', 'BBQ13, 18', 'BBQ13', 2, NULL, '605,236', NULL, 'DOUBLE', '88');
+INSERT INTO pois (id, location, type) VALUES (19, 'BBQ14, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (19, '2,524,165', 'BBQ', 'BBQ14, 18', 'BBQ14', 2, NULL, '605,224', NULL, 'DOUBLE', '40');
+INSERT INTO pois (id, location, type) VALUES (20, 'BBQ15, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (20, '2,524,166', 'BBQ', 'BBQ15, 18', 'BBQ15', 2, NULL, '603,615', NULL, 'DOUBLE', '80');
+INSERT INTO pois (id, location, type) VALUES (21, 'BBQ16, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (21, '2,524,167', 'BBQ', 'BBQ16, 18', 'BBQ16', 2, NULL, '603,741', NULL, 'DOUBLE', '38');
+INSERT INTO pois (id, location, type) VALUES (22, 'BBQ17, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (22, '2,524,168', 'BBQ', 'BBQ17, 18', 'BBQ17', 2, NULL, '603,797', NULL, 'DOUBLE', '36');
+INSERT INTO pois (id, location, type) VALUES (23, 'BBQ20, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (23, '2,524,171', 'BBQ', 'BBQ20, 18', 'BBQ20', 2, NULL, '601,274', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (24, 'BBQ21, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (24, '2,524,172', 'BBQ', 'BBQ21, 18', 'BBQ21', 2, NULL, '603,213', NULL, 'DOUBLE', '67');
+INSERT INTO pois (id, location, type) VALUES (25, 'BBQ22, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (25, '2,524,173', 'BBQ', 'BBQ22, 18', 'BBQ22', 2, NULL, '602,651', NULL, 'DOUBLE', '69');
+INSERT INTO pois (id, location, type) VALUES (26, 'BBQ23, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (26, '2,524,174', 'BBQ', 'BBQ23, 18', 'BBQ23', 2, NULL, '602,723', NULL, 'DOUBLE', '70');
+INSERT INTO pois (id, location, type) VALUES (27, 'BBQ24, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (27, '2,524,175', 'BBQ', 'BBQ24, 18', 'BBQ24', 2, NULL, '602,658', NULL, 'DOUBLE', '72');
+INSERT INTO pois (id, location, type) VALUES (28, 'BBQ25, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (28, '2,524,176', 'BBQ', 'BBQ25, 18', 'BBQ25', 2, NULL, '603,308', NULL, 'DOUBLE', '62');
+INSERT INTO pois (id, location, type) VALUES (29, 'BBQ26, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (29, '2,524,177', 'BBQ', 'BBQ26, 18', 'BBQ26', 2, NULL, '603,318', NULL, 'DOUBLE', '65');
+INSERT INTO pois (id, location, type) VALUES (30, 'BBQ27, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (30, '2,524,178', 'BBQ', 'BBQ27, 18', 'BBQ27', 2, NULL, '609,667', NULL, 'DOUBLE', '11');
+INSERT INTO pois (id, location, type) VALUES (31, 'BBQ28, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (31, '2,524,179', 'BBQ', 'BBQ28, 18', 'BBQ28', 2, NULL, '609,656', NULL, 'DOUBLE', '9');
+INSERT INTO pois (id, location, type) VALUES (32, 'BBQ29, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (32, '2,524,180', 'BBQ', 'BBQ29, 18', 'BBQ29', 2, NULL, '609,794', NULL, 'DOUBLE', '25');
+INSERT INTO pois (id, location, type) VALUES (33, 'BBQ30, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (33, '2,524,181', 'BBQ', 'BBQ30, 18', 'BBQ30', 2, NULL, '609,842', NULL, 'DOUBLE', '23');
+INSERT INTO pois (id, location, type) VALUES (34, 'BBQ31, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (34, '2,524,182', 'BBQ', 'BBQ31, 18', 'BBQ31', 2, NULL, '609,862', NULL, 'DOUBLE', '17');
+INSERT INTO pois (id, location, type) VALUES (35, 'BBQ32, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (35, '2,524,183', 'BBQ', 'BBQ32, 18', 'BBQ32', 2, NULL, '609,867', NULL, 'DOUBLE', '15');
+INSERT INTO pois (id, location, type) VALUES (36, 'BBQ33, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (36, '2,524,184', 'BBQ', 'BBQ33, 18', 'BBQ33', 2, NULL, '610,011', NULL, 'DOUBLE', '19');
+INSERT INTO pois (id, location, type) VALUES (37, 'BBQ34, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (37, '2,524,185', 'BBQ', 'BBQ34, 18', 'BBQ34', 2, NULL, '610,148', NULL, 'DOUBLE', '21');
+INSERT INTO pois (id, location, type) VALUES (38, 'BBQ35, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (38, '2,524,186', 'BBQ', 'BBQ35, 18', 'BBQ35', 2, NULL, '609,292', NULL, 'DOUBLE', '94');
+INSERT INTO pois (id, location, type) VALUES (39, 'BBQ36, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (39, '2,524,187', 'BBQ', 'BBQ36, 18', 'BBQ36', 2, NULL, '610,034', NULL, 'DOUBLE', '13');
+INSERT INTO pois (id, location, type) VALUES (40, 'BBQ37, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (40, '2,524,188', 'BBQ', 'BBQ37, 18', 'BBQ37', 2, NULL, '610,025', NULL, 'DOUBLE', '7');
+INSERT INTO pois (id, location, type) VALUES (41, 'BBQ38, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (41, '2,524,189', 'BBQ', 'BBQ38, 18', 'BBQ38', 2, NULL, '609,072', NULL, 'DOUBLE', '33');
+INSERT INTO pois (id, location, type) VALUES (42, 'BBQ39, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (42, '2,524,190', 'BBQ', 'BBQ39, 18', 'BBQ39', 2, NULL, '609,033', NULL, 'DOUBLE', '31');
+INSERT INTO pois (id, location, type) VALUES (43, 'BBQ40, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (43, '2,524,191', 'BBQ', 'BBQ40, 18', 'BBQ40', 2, NULL, '610,886', NULL, 'DOUBLE', '5');
+INSERT INTO pois (id, location, type) VALUES (44, 'BBQ41, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (44, '2,524,192', 'BBQ', 'BBQ41, 18', 'BBQ41', 2, NULL, '610,273', NULL, 'DOUBLE', '34');
+INSERT INTO pois (id, location, type) VALUES (45, 'BBQ42, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (45, '2,524,193', 'BBQ', 'BBQ42, 18', 'BBQ42', 2, NULL, '615,982', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (46, 'BBQ43, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (46, '2,524,194', 'BBQ', 'BBQ43, 18', 'BBQ43', 2, NULL, '616,019', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (47, 'BBQ44, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (47, '2,524,195', 'BBQ', 'BBQ44, 18', 'BBQ44', 2, NULL, '611,597', NULL, 'DOUBLE', '74');
+INSERT INTO pois (id, location, type) VALUES (48, 'BBQ45, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (48, '2,524,196', 'BBQ', 'BBQ45, 18', 'BBQ45', 2, NULL, '611,142', NULL, 'DOUBLE', '92');
+INSERT INTO pois (id, location, type) VALUES (49, 'BBQ46, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (49, '2,524,197', 'BBQ', 'BBQ46, 18', 'BBQ46', 2, NULL, '611,115', NULL, 'DOUBLE', '90');
+INSERT INTO pois (id, location, type) VALUES (50, 'BBQ47, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (50, '2,524,198', 'BBQ', 'BBQ47, 18', 'BBQ47', 2, NULL, '612,001', NULL, 'DOUBLE', '1');
+INSERT INTO pois (id, location, type) VALUES (51, 'BBQ48, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (51, '2,524,199', 'BBQ', 'BBQ48, 18', 'BBQ48', 2, NULL, '611,413', NULL, 'DOUBLE', '3');
+INSERT INTO pois (id, location, type) VALUES (52, 'BBQ49, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (52, '2,524,200', 'BBQ', 'BBQ49, 18', 'BBQ49', 2, NULL, '611,553', NULL, 'DOUBLE', '78');
+INSERT INTO pois (id, location, type) VALUES (53, 'BBQ50, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (53, '2,524,201', 'BBQ', 'BBQ50, 18', 'BBQ50', 2, NULL, '611,582', NULL, 'DOUBLE', '76');
+INSERT INTO pois (id, location, type) VALUES (54, 'BBQ53, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (54, '2,524,204', 'BBQ', 'BBQ53, 18', 'BBQ53', 2, NULL, '615,171', NULL, 'SINGLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (55, 'BBQ54, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (55, '2,524,205', 'BBQ', 'BBQ54, 18', 'BBQ54', 2, NULL, '615,184', NULL, 'SINGLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (56, 'BBQ55, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (56, '2,524,206', 'BBQ', 'BBQ55, 18', 'BBQ55', 2, NULL, '615,191', NULL, 'SINGLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (57, 'BBQ56, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (57, '2,524,207', 'BBQ', 'BBQ56, 18', 'BBQ56', 2, NULL, '615,174', NULL, 'SINGLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (58, 'BBQ57, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (58, '2,524,208', 'BBQ', 'BBQ57, 18', 'BBQ57', 2, NULL, '610,893', NULL, 'DOUBLE', '96');
+INSERT INTO pois (id, location, type) VALUES (59, 'BBQ58, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (59, '2,524,209', 'BBQ', 'BBQ58, 18', 'BBQ58', 2, NULL, '588,647', NULL, 'DOUBLE', '281');
+INSERT INTO pois (id, location, type) VALUES (60, 'BBQ59, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (60, '2,524,210', 'BBQ', 'BBQ59, 18', 'BBQ59', 2, NULL, '589,967', NULL, 'DOUBLE', '256');
+INSERT INTO pois (id, location, type) VALUES (61, 'BBQ60, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (61, '2,524,211', 'BBQ', 'BBQ60, 18', 'BBQ60', 2, NULL, '591,957', NULL, 'DOUBLE', '248');
+INSERT INTO pois (id, location, type) VALUES (62, 'BBQ61, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (62, '2,524,212', 'BBQ', 'BBQ61, 18', 'BBQ61', 2, NULL, '591,964', NULL, 'DOUBLE', '250');
+INSERT INTO pois (id, location, type) VALUES (63, 'BBQ62, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (63, '2,524,213', 'BBQ', 'BBQ62, 18', 'BBQ62', 2, NULL, '591,601', NULL, 'DOUBLE', '242');
+INSERT INTO pois (id, location, type) VALUES (64, 'BBQ63, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (64, '2,524,214', 'BBQ', 'BBQ63, 18', 'BBQ63', 2, NULL, '591,579', NULL, 'DOUBLE', '244');
+INSERT INTO pois (id, location, type) VALUES (65, 'BBQ64, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (65, '2,524,215', 'BBQ', 'BBQ64, 18', 'BBQ64', 2, NULL, '591,566', NULL, 'DOUBLE', '246');
+INSERT INTO pois (id, location, type) VALUES (66, 'BBQ65, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (66, '2,524,216', 'BBQ', 'BBQ65, 18', 'BBQ65', 2, NULL, '589,504', NULL, 'DOUBLE', '279');
+INSERT INTO pois (id, location, type) VALUES (67, 'BBQ66, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (67, '2,524,217', 'BBQ', 'BBQ66, 18', 'BBQ66', 2, NULL, '584,479', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (68, 'BBQ67, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (68, '2,524,218', 'BBQ', 'BBQ67, 18', 'BBQ67', 2, NULL, '598,809', NULL, 'SINGLE', '260');
+INSERT INTO pois (id, location, type) VALUES (69, 'BBQ68, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (69, '2,524,219', 'BBQ', 'BBQ68, 18', 'BBQ68', 2, NULL, '598,805', NULL, 'DOUBLE', '258');
+INSERT INTO pois (id, location, type) VALUES (70, 'BBQ69, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (70, '2,524,220', 'BBQ', 'BBQ69, 18', 'BBQ69', 2, NULL, '599,768', NULL, 'DOUBLE', '221');
+INSERT INTO pois (id, location, type) VALUES (71, 'BBQ70, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (71, '2,524,221', 'BBQ', 'BBQ70, 18', 'BBQ70', 2, NULL, '600,053', NULL, 'DOUBLE', '223');
+INSERT INTO pois (id, location, type) VALUES (72, 'BBQ71, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (72, '2,524,222', 'BBQ', 'BBQ71, 18', 'BBQ71', 2, NULL, '600,062', NULL, 'DOUBLE', '225');
+INSERT INTO pois (id, location, type) VALUES (73, 'BBQ73, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (73, '2,524,224', 'BBQ', 'BBQ73, 18', 'BBQ73', 2, NULL, '600,137', NULL, 'DOUBLE', '229');
+INSERT INTO pois (id, location, type) VALUES (74, 'BBQ74, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (74, '2,524,225', 'BBQ', 'BBQ74, 18', 'BBQ74', 2, NULL, '600,554', NULL, 'DOUBLE', '231');
+INSERT INTO pois (id, location, type) VALUES (75, 'BBQ75, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (75, '2,524,226', 'BBQ', 'BBQ75, 18', 'BBQ75', 2, NULL, '602,027', NULL, 'DOUBLE', '205');
+INSERT INTO pois (id, location, type) VALUES (76, 'BBQ76, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (76, '2,524,227', 'BBQ', 'BBQ76, 18', 'BBQ76', 2, NULL, '601,930', NULL, 'DOUBLE', '207');
+INSERT INTO pois (id, location, type) VALUES (77, 'BBQ77, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (77, '2,524,228', 'BBQ', 'BBQ77, 18', 'BBQ77', 2, NULL, '601,905', NULL, 'DOUBLE', '203');
+INSERT INTO pois (id, location, type) VALUES (78, 'BBQ78, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (78, '2,524,229', 'BBQ', 'BBQ78, 18', 'BBQ78', 2, NULL, '601,895', NULL, 'DOUBLE', '283');
+INSERT INTO pois (id, location, type) VALUES (79, 'BBQ79, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (79, '2,524,230', 'BBQ', 'BBQ79, 18', 'BBQ79', 2, NULL, '601,958', NULL, 'DOUBLE', '281');
+INSERT INTO pois (id, location, type) VALUES (80, 'BBQ80, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (80, '2,524,231', 'BBQ', 'BBQ80, 18', 'BBQ80', 2, NULL, '602,266', NULL, 'DOUBLE', '213');
+INSERT INTO pois (id, location, type) VALUES (81, 'BBQ81, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (81, '2,524,232', 'BBQ', 'BBQ81, 18', 'BBQ81', 2, NULL, '602,488', NULL, 'DOUBLE', '219');
+INSERT INTO pois (id, location, type) VALUES (82, 'BBQ82, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (82, '2,524,233', 'BBQ', 'BBQ82, 18', 'BBQ82', 2, NULL, '602,748', NULL, 'DOUBLE', '277');
+INSERT INTO pois (id, location, type) VALUES (83, 'BBQ83, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (83, '2,524,234', 'BBQ', 'BBQ83, 18', 'BBQ83', 2, NULL, '602,621', NULL, 'DOUBLE', '217');
+INSERT INTO pois (id, location, type) VALUES (84, 'BBQ84, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (84, '2,524,235', 'BBQ', 'BBQ84, 18', 'BBQ84', 2, NULL, '602,808', NULL, 'DOUBLE', '211');
+INSERT INTO pois (id, location, type) VALUES (85, 'BBQ85, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (85, '2,524,236', 'BBQ', 'BBQ85, 18', 'BBQ85', 2, NULL, '602,870', NULL, 'DOUBLE', '210');
+INSERT INTO pois (id, location, type) VALUES (86, 'BBQ86, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (86, '2,524,237', 'BBQ', 'BBQ86, 18', 'BBQ86', 2, NULL, '602,901', NULL, 'DOUBLE', '215');
+INSERT INTO pois (id, location, type) VALUES (87, 'BBQ88, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (87, '2,524,239', 'BBQ', 'BBQ88, 18', 'BBQ88', 2, NULL, '608,371', NULL, 'DOUBLE', '50');
+INSERT INTO pois (id, location, type) VALUES (88, 'BBQ89, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (88, '2,524,240', 'BBQ', 'BBQ89, 18', 'BBQ89', 2, NULL, '608,686', NULL, 'DOUBLE', '27');
+INSERT INTO pois (id, location, type) VALUES (89, 'BBQ90, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (89, '2,524,241', 'BBQ', 'BBQ90, 18', 'BBQ90', 2, NULL, '608,688', NULL, 'SINGLE', '29');
+INSERT INTO pois (id, location, type) VALUES (90, 'BBQ92, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (90, '2,524,243', 'BBQ', 'BBQ92, 18', 'BBQ92', 2, NULL, '617,171', NULL, 'DOUBLE', '0');
+INSERT INTO pois (id, location, type) VALUES (91, 'BBQ94, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (91, '2,524,245', 'BBQ', 'BBQ94, 18', 'BBQ94', 2, NULL, '589,400', NULL, 'DOUBLE', '287');
+INSERT INTO pois (id, location, type) VALUES (92, 'BBQ95, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (92, '2,524,246', 'BBQ', 'BBQ95, 18', 'BBQ95', 2, NULL, '589,538', NULL, 'DOUBLE', '271');
+INSERT INTO pois (id, location, type) VALUES (93, 'BBQ96, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (93, '2,524,247', 'BBQ', 'BBQ96, 18', 'BBQ96', 2, NULL, '589,483', NULL, 'DOUBLE', '269');
+INSERT INTO pois (id, location, type) VALUES (94, 'BBQ98, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (94, '2,524,249', 'BBQ', 'BBQ98, 18', 'BBQ98', 2, NULL, '589,441', NULL, 'DOUBLE', '285');
+INSERT INTO pois (id, location, type) VALUES (95, 'BBQ99, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (95, '2,524,250', 'BBQ', 'BBQ99, 18', 'BBQ99', 2, NULL, '613,727', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (96, 'BBQ100, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (96, '2,524,251', 'BBQ', 'BBQ100, 18', 'BBQ100', 2, NULL, '613,769', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (97, 'BBQ101, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (97, '2,524,252', 'BBQ', 'BBQ101, 18', 'BBQ101', 2, NULL, '589,599', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (98, 'BBQ102, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (98, '2,524,253', 'BBQ', 'BBQ102, 18', 'BBQ102', 2, NULL, '589,762', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (99, 'BBQ103, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (99, '2,524,254', 'BBQ', 'BBQ103, 18', 'BBQ103', 2, NULL, '589,897', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (100, 'BBQ104, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (100, '2,524,255', 'BBQ', 'BBQ104, 18', 'BBQ104', 2, NULL, '590,123', NULL, 'DOUBLE', NULL);
+INSERT INTO pois (id, location, type) VALUES (101, 'BBQ124, 18', 'bbq');
+INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (101, '5,706,719', 'BBQ', 'BBQ124, 18', 'BBQ124', 2, NULL, NULL, NULL, 'DOUBLE', '98');
