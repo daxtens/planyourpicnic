@@ -3,7 +3,7 @@ from fabric.api import *
 def setup():
 	local("pip install bottle")
 	local("pip install psycopg2")
-	local("pip install simplekml pykml")
+	local("pip install simplekml pykml lxml")
 	local("pip install pyproj")
         
         # syntax checkers and cleaners
