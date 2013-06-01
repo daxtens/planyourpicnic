@@ -2,15 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_1243">
         <Style id="stylesel_2">
-            <IconStyle id="substyle_3">
+            <IconStyle id="substyle_4">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_1">
-                    <href>http://www.google.com/mapfiles/ms/micons/firedept.png</href>
+                <Icon id="link_2">
+                    <href>http://www.google.com/mapfiles/ms/micons/toilets.png</href>
                 </Icon>
             </IconStyle>
-            <LabelStyle id="substyle_2">
+            <LabelStyle id="substyle_3">
                 <color>ff0000ff</color>
                 <colorMode>normal</colorMode>
                 <scale>1</scale>

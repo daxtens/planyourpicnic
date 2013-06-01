@@ -22,13 +22,14 @@ bbq_style.labelstyle.color = 'ff0000ff'  # Red
 bbq_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedept.png'
 
 furniture_style = simplekml.Style()
+furniture_style.iconstyle.icon.href="http://maps.google.com/mapfiles/kml/pal2/icon20.png"
 
 toilet_style = simplekml.Style()
 toilet_style.labelstyle.color = 'ff0000ff'  # Red
-toilet_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedept.png'
+toilet_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/toilets.png'
 
 playground_style = simplekml.Style()
-playground_style.iconstyle.icon.href="http://localhost/ajd/playground.png"
+playground_style.iconstyle.icon.href="http://labs.google.com/ridefinder/images/mm_20_yellow.png"
 
 
 

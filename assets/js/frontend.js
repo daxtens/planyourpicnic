@@ -42,15 +42,13 @@ function initialize() {
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.toilets = true;
-  layers.toilets.setMap(map);
-  alert("Toilets visible");
+  layersVisible.toilets = false;
 
-  /*layers.playgrounds = new google.maps.KmlLayer({
+  layers.playgrounds = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/playgrounds.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.playgrounds = false;*/
+  layersVisible.playgrounds = false;
 
 }
 
