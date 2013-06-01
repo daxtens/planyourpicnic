@@ -82,7 +82,7 @@
       <div class="container">
         <p class="buttons">
           <a href="#" id="BBQ" title="BBQ"><img src="assets/img/campfire.png" class="layericon" alt="BBQ"/></a>
-          <a href="#" id="seats" title="Seats"><img src="assets/img/poi.png" class="layericon" alt="Seats"/></a>
+          <a href="#" id="seats" title="Seats"><img src="assets/img/POI.png" class="layericon" alt="Seats"/></a>
           <a href="#" id="tables" title="Tables"><img src="assets/img/picnic.png" class="layericon" alt="Tables"/></a>
           <a href="#" id="toilets" title="Public Toilets"><img src="assets/img/toilets.png" class="layericon" alt="Public Toilets"/></a>
           <a href="#" id="playgrounds" title="Playgrounds"><img src="assets/img/sportvenue.png" class="layericon" alt="Playground"/></a>

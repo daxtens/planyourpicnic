@@ -40,6 +40,8 @@ server {
         root /home/pyp/planyourpicnic;
         index index.html index.htm;
 
+        server_name planyourpicnic.dja.id.au;
+
         location / {
                 proxy_pass  http://pyp;
                 proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
