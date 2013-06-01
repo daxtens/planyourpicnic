@@ -25,26 +25,6 @@
     <link href="assets/css/gmaps.css" rel="stylesheet">
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-      function initialize() {
-      var canberra = new google.maps.LatLng(-35.290487,149.099384);
-      var mapOptions = {
-      zoom: 13,
-      center: canberra,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-      }
-
-      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-      var layer = new google.maps.KmlLayer({
-      url: 'http://{{hostname}}/kml/'
-      });
-      layer.setMap(map);
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
   </head>
 
   <body>
