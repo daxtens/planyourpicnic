@@ -21,10 +21,9 @@
 
 
 function initialize() {
-  var chicago = new google.maps.LatLng(41.875696,-87.624207);
-  var canberra = new google.maps.LatLng(-35.290487,149.099384);
+  var canberra = new google.maps.LatLng(-35.27603,149.13435);
   var mapOptions = {
-    zoom: 13,
+    zoom: 14,
     center: canberra,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
@@ -32,9 +31,14 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var layer = new google.maps.KmlLayer({
-    //url: 'http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml'
-    url: 'http://tessereth.dja.id.au/data/publicfurniture3.kml'
-    //url: 'http://localhost:8080/publicfurniture.kml'
+    url: 'http://tessereth.dja.id.au/data/playgrounds11.kml',
+    preserveViewport: true
+  });
+  layer.setMap(map);
+
+  var layer = new google.maps.KmlLayer({
+    url: 'http://tessereth.dja.id.au/data/publicfurniture4.kml',
+    preserveViewport: true
   });
   layer.setMap(map);
 }
