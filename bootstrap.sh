@@ -2,15 +2,9 @@
 
 sudo apt-get update
 
-sudo apt-get install -y python-virtualenv python-dev postgresql-9.1 postgresql-client-9.1 libpq-dev git fabric
+sudo apt-get install -y python-virtualenv python-dev postgresql-9.1 postgresql-client-9.1 libpq-dev git fabric phppgadmin
 
 cd /vagrant
-
-sudo -u postgres psql << EOF
-CREATE USER planyourpicnic WITH PASSWORD 'planyourpicnic';
-CREATE DATABASE planyourpicnic;
-GRANT ALL PRIVILEGES ON DATABASE planyourpicnic TO planyourpicnic;
-EOF
 
 fab setup
 

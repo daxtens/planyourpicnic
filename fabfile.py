@@ -5,10 +5,15 @@ def setup():
 	local("pip install psycopg2")
 	local("pip install simplekml")
 	local("pip install pyproj")
-		
+        
         # syntax checkers and cleaners
         local("pip install pep8")
         local("easy_install http://closure-linter.googlecode.com/files/closure_linter-latest.tar.gz")
+        
+        # Set up database
+        local("sudo -u postgres psql -f data/create_user_db.sql")
+        local("sudo -u postgres psql planmypicnic -f data/init.sql")
+
 
 def init_ec2():
     run("sudo apt-get update; sudo apt-get upgrade -y")
@@ -49,4 +54,3 @@ server {
 __EOF__""")
     run("sudo mv /tmp/default /etc/nginx/sites-available")
     run("sudo service nginx restart")
-
