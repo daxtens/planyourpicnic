@@ -17,7 +17,7 @@ def setup():
 
 def init_ec2():
     run("sudo apt-get update; sudo apt-get upgrade -y")
-    run("sudo apt-get install -y python-dev postgresql libpq-dev git fabric nginx supervisor python-pip")
+    run("sudo apt-get install -y python-dev postgresql libpq-dev git fabric nginx supervisor python-pip postgresql-contrib")
     run("[ -e /home/pyp ] || sudo useradd -m pyp")
     run("sudo rm -rf /home/pyp/planyourpicnic")
     run("sudo -u pyp git clone git://github.com/daxtens/planyourpicnic.git /home/pyp/planyourpicnic")
