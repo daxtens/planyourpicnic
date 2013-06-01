@@ -44,7 +44,7 @@ bbqs = cur.fetchall()
 for bbq in bbqs:
     if bbq['location'] != None:
         coords = bbq['location'][1:-1].split(',')
-        point = kml.newpoint(name="BBQ - " + bbq['name'] + ' - ' + bbq['suburb'], coords=[(float(coords[1]), float(coords[0]))])
+        point = kml.newpoint(name="BBQ - " + bbq['name'] + ' - ' + bbq['suburb'], coords=[(float(coords[0]), float(coords[1]))])
         point.style = bbq_style
 
 kml.save("data/bbq.kml")
@@ -63,7 +63,7 @@ for playground in playgrounds:
         rating = (0 <= playground['area'] < 500 and "Small" or
             500 <= playground['area'] < 1000 and "Medium" or
             "Large")
-        point = kml.newpoint(name="Playground - %s - %s" % (playground['division_name'], rating), coords=[(float(coords[1]), float(coords[0]))])
+        point = kml.newpoint(name="Playground - %s - %s" % (playground['division_name'], rating), coords=[(float(coords[0]), float(coords[1]))])
         point.style = playground_style
 
 kml.save("data/playgrounds.kml")
@@ -78,7 +78,7 @@ toilets = cur.fetchall()
 for toilet in toilets:
     if toilet['location'] != None:
         coords = toilet['location'][1:-1].split(',')
-        point = kml.newpoint(name="Toilet - " + toilet['division_name'] + ' - ' + toilet['location_description'] + ' - ' + toilet['toilet_type_text'], coords=[(float(coords[1]), float(coords[0]))])
+        point = kml.newpoint(name="Toilet - " + toilet['division_name'] + ' - ' + toilet['location_description'] + ' - ' + toilet['toilet_type_text'], coords=[(float(coords[0]), float(coords[1]))])
         point.style = toilet_style
 
 kml.save("data/toilets.kml")
@@ -95,10 +95,10 @@ for furniture in furnitures:
     if furniture['location'] != None:
         coords = furniture['location'][1:-1].split(',')
         if furniture['feature_type'] == 'TABLE':
-            point = kmltables.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
+            point = kmltables.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[0]), float(coords[1]))])
             point.style = furniture_table_style
         elif furniture['feature_type'] == 'SEAT':
-            point = kmlseats.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
+            point = kmlseats.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[0]), float(coords[1]))])
             point.style = furniture_seat_style
         else:
             print "Unknown furniture type found:",furniture['feature_type']

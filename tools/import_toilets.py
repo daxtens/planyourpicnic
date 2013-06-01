@@ -10,11 +10,13 @@ class Point(object):
     def __init__(self, dataString):
         #clip out parenthesis, and split over comma
         data = dataString[1:-1].split(', ')
-        self.x = float(data[0])
-        self.y = float(data[1])
+        self.longitude = float(data[1])
+        #input is in standard order (lat,long)
+        self.latitude = float(data[0])
 
 def adapt_point(point):
-    return psycopg2.extensions.AsIs("'(%s, %s)'" % (psycopg2.extensions.adapt(point.x), psycopg2.extensions.adapt(point.y)))
+    #store in sql order (long,lat)
+    return psycopg2.extensions.AsIs("'(%s, %s)'" % (psycopg2.extensions.adapt(point.longitude), psycopg2.extensions.adapt(point.latitude)))
 
 psycopg2.extensions.register_adapter(Point, adapt_point)
 

@@ -283,7 +283,7 @@ with open(sys.argv[1]) as csvfile:
             (current_id,
             line[0],
             line[1],
-            (line[2] and line[3]) and "'%s, %s'" % (line[2], line[3]) or 'NULL',
+            (line[3] and line[2]) and "'%s, %s'" % (line[3], line[2]) or 'NULL',
             line[4],
             line[5]=='SINGLE' and 1 or 2,
             line[6] == 'Y' and 'TRUE' or (line[6] == 'N' and 'FALSE' or 'NULL'),
