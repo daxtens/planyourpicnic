@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_1243">
-        <Style id="stylesel_2"/>
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_3">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href>http://www.google.com/mapfiles/ms/micons/firedept.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_2">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
         <Placemark id="feat_1244">
             <name>Toilet - ACTON - ACTON PARK DISTRICT PARK - ACTON FERRY TERMINAL - MANUAL STYLE ABLUTION BLOCK</name>
             <styleUrl>#stylesel_2</styleUrl>

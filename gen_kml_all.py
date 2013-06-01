@@ -24,6 +24,8 @@ bbq_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedep
 furniture_style = simplekml.Style()
 
 toilet_style = simplekml.Style()
+toilet_style.labelstyle.color = 'ff0000ff'  # Red
+toilet_style.iconstyle.icon.href= 'http://www.google.com/mapfiles/ms/micons/firedept.png'
 
 playground_style = simplekml.Style()
 playground_style.iconstyle.icon.href="http://localhost/ajd/playground.png"
