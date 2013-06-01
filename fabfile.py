@@ -3,7 +3,7 @@ from fabric.api import *
 def setup():
 	local("pip install bottle")
 	local("pip install psycopg2")
-	local("pip install simplekml")
+	local("pip install simplekml pykml")
 	local("pip install pyproj")
         
         # syntax checkers and cleaners
@@ -12,7 +12,7 @@ def setup():
         
         # Set up database
         local("sudo -u postgres psql -f data/create_user_db.sql")
-        local("sudo -u postgres psql planyourpicnic -f data/init.sql")
+        local("cd tools; ./import_all.sh")
 
 
 def init_ec2():
@@ -56,3 +56,7 @@ server {
 __EOF__""")
     run("sudo mv /tmp/default /etc/nginx/sites-available")
     run("sudo service nginx restart")
+
+def update_ec2():
+    run("sudo rm -rf /home/pyp/planyourpicnic")
+    run("sudo -u pyp git clone git://github.com/daxtens/planyourpicnic.git /home/pyp/planyourpicnic")

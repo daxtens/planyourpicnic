@@ -42,7 +42,7 @@ for bbq in bbqs:
         point = kml.newpoint(name="BBQ - " + bbq['name'] + ' - ' + bbq['suburb'], coords=[(float(coords[1]), float(coords[0]))])
         point.style = bbq_style
 
-kml.save("bbqs.kml")
+kml.save("data/bbq.kml")
 
 
 
@@ -61,7 +61,7 @@ for playground in playgrounds:
         point = kml.newpoint(name="Playground - %s - %s" % (playground['division_name'], rating), coords=[(float(coords[1]), float(coords[0]))])
         point.style = playground_style
 
-kml.save("playgrounds.kml")
+kml.save("data/playgrounds.kml")
 
 
 # Toilets
@@ -76,7 +76,7 @@ for toilet in toilets:
         point = kml.newpoint(name="Toilet - " + toilet['division_name'] + ' - ' + toilet['location_description'] + ' - ' + toilet['toilet_type_text'], coords=[(float(coords[1]), float(coords[0]))])
         point.style = toilet_style
 
-kml.save("toilets.kml")
+kml.save("data/toilets.kml")
 
 
 # Furnitures - which is totally a word now
@@ -91,4 +91,4 @@ for furniture in furnitures:
         point = kml.newpoint(name=furniture['feature_type'] + " - " + furniture['division_name'] + ' - ' + furniture['location_name'], coords=[(float(coords[1]), float(coords[0]))])
         point.style = furniture_style
 
-kml.save("furnitures.kml")
+kml.save("data/furnitures.kml")
