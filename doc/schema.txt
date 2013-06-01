@@ -1,0 +1,21 @@
+bbqs
+----
+
+id integer <-- foreign key for 'pois'
+name character varying 64
+suburb character varying 32
+location point
+type bbq_type
+hotplates integer
+tap boolean
+bench_type bbq_bench_type
+wired_door boolean
+climb_access bbq_climb_access
+hotplate_material bbq_hotplate_material
+
+
+pois
+----
+id SERIAL
+location point
+type poi_type
