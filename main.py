@@ -2,13 +2,13 @@
 
 import bottle
 import os, sys
-
+import settings
 
 @bottle.route('/')
 @bottle.route('/index.html')
 @bottle.view('index')
 def index():
-    return {'name': 'GovHack Project'}
+    return {'hostname': settings.HOSTNAME}
 
 
 @bottle.route('/about')

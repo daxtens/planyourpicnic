@@ -1,5 +1,7 @@
 # Plan Your Picnic settings
 
+HOSTNAME        = 'planyourpicnic.dja.id.au'
+
 # Database details
 DB_HOST         = 'localhost'
 DB_PORT         = 5432

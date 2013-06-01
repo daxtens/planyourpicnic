@@ -42,7 +42,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var layer = new google.maps.KmlLayer({
-    url: '/data/publicfurniture3.kml'
+    url: 'http://{{hostname}}/data/publicfurniture3.kml'
   });
   layer.setMap(map);
 }
