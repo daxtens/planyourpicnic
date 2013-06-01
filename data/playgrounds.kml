@@ -2,12 +2,12 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_97">
         <Style id="stylesel_3">
-            <IconStyle id="substyle_2">
+            <IconStyle id="substyle_5">
                 <colorMode>normal</colorMode>
                 <scale>1</scale>
                 <heading>0</heading>
-                <Icon id="link_1">
-                    <href>http://localhost/ajd/playground.png</href>
+                <Icon id="link_3">
+                    <href>http://labs.google.com/ridefinder/images/mm_20_yellow.png</href>
                 </Icon>
             </IconStyle>
         </Style>
