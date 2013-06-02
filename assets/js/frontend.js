@@ -22,38 +22,47 @@ function initialize() {
     url: 'http://'+HOSTNAME+'/data/bbq.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.BBQ = true;
-  layers.BBQ.setMap(map);
-
+  
   layers.tables = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/furnitures_tables.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.tables = false;
-  $('#tables').addClass('disabled');
-
+  
   layers.toilets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.toilets = true;
-  layers.toilets.setMap(map);
-
+  
   layers.playgrounds = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/playgrounds.kml?random=' + nonce,
     preserveViewport: true
   });
-  layersVisible.playgrounds = true;
-  layers.playgrounds.setMap(map);
-   
   
   layers.targets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/dynamicmap.kml/1/1/1/0?random=' + nonce,
     preserveViewport: true
   });
-  layers.targets.setMap(map);
   
-  
+  // Ensure targets loads after other layers. We don't wait for tables since it doesn't load by default
+  var listener1 = google.maps.event.addListener(layers.BBQ, 'metadata_changed', function() {
+    google.maps.event.clearListeners(layers.BBQ, 'metadata_changed');
+    var listener2 = google.maps.event.addListener(layers.toilets, 'metadata_changed', function() {
+      google.maps.event.clearListeners(layers.tables, 'metadata_changed');
+      var listener3 = google.maps.event.addListener(layers.playgrounds, 'metadata_changed', function() {
+        google.maps.event.clearListeners(layers.playgrounds, 'metadata_changed');
+        layers.targets.setMap(map);
+      });
+    });
+  });
+  layersVisible.BBQ = true;
+  layers.BBQ.setMap(map);
+  layersVisible.tables = false;
+  $('#tables').addClass('disabled');
+  layersVisible.toilets = true;
+  layers.toilets.setMap(map);
+  layersVisible.playgrounds = true;
+  layers.playgrounds.setMap(map);
+    
   google.maps.event.addListener(layers.BBQ, 'click', getSidebar);
   google.maps.event.addListener(layers.tables, 'click', getSidebar);
   google.maps.event.addListener(layers.toilets, 'click', getSidebar);
