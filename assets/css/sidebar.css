@@ -7,7 +7,7 @@
 
 @media (min-width: 800px) {
     #sidebar {
-        width: 180px;
+        width: 250px;
         height: 100%;
         float: right;
         background-color: #EEEEEE;
@@ -19,9 +19,9 @@
     }
     
     #map-canvas {
-        width: -moz-calc(100% - 180px);
-        width: -webkit-calc(100% - 180px);
-        width: calc(100% - 180px);
+        width: -moz-calc(100% - 250px);
+        width: -webkit-calc(100% - 250px);
+        width: calc(100% - 250px);
         float: left;
     }
 }
