@@ -2,7 +2,7 @@
 
 <p>Plan Your Picnic was developed for <a href="http://www.govhack.org">GovHack 2013</a> by the Hungry Hungry Hackers:
 <ul><li>Daniel Axtens</li>
-<li>Tessa Bradbury</li>
+<li>Teresa Bradbury</li>
 <li>Andrew Donnellan</li>
 <li>Jonathan Franzi</li></ul></p>
 
@@ -33,14 +33,15 @@
 <li><a href="http://www.fabfile.org">Fabric</a></li>
 <li><a href="https://code.google.com/p/pyproj/">pyproj</a></li>
 <li><a href="https://code.google.com/p/simplekml/">simplekml</a></li>
-<li><a href="http://nginx.org">nginx</a></li></ul></p>
+<li><a href="http://nginx.org">nginx</a></li>
+<li><a href="http://trove.nla.gov.au/general/api">Trove API</a></li></ul></p>
 
 
 <h2>Copyright and Disclaimer</h2>
 <p>The following licence applies only to the Plan Your Picnic application code and not to any datasets, libraries or graphics.</p>
 
 <p>Plan Your Picnic &mdash; a picnic planner for Canberra<br/>
-Copyright &copy; 2013 Daniel Axtens, Tessa Bradbury, Andrew Donnellan, Jonathan Franzi.</p>
+Copyright &copy; 2013 Daniel Axtens, Teresa Bradbury, Andrew Donnellan, Jonathan Franzi.</p>
 
 <p>This program is free software; you can redistribute it and/or modify it under the terms of the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a> as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
 
