@@ -13,3 +13,8 @@
     width: 32px;
     margin: 0 1em;
 }
+
+.disabled {
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
