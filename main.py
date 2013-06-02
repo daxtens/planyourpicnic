@@ -32,6 +32,10 @@ def sidebar(keyword):
         result = trove.findPicture(keyword)
         result['undefined'] = False
         result['keyword'] = keyword.upper()
+        # TODO: Do this more nicely
+        if len(result['title'] > 200):
+            result['title'] = result['title'][:200] + '...'
+        
         return result
     except:
         return {'undefined': True}
