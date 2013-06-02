@@ -36,6 +36,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-41395869-1', 'dja.id.au');
   ga('send', 'pageview');
+  setTimeout("ga('send', 'event', '15_seconds', 'read')", 15000);
     </script>
     <div id="wrap">
       
