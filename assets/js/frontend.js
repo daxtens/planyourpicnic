@@ -45,6 +45,17 @@ function initialize() {
   });
   layersVisible.playgrounds = true;
   layers.playgrounds.setMap(map);
+  
+  
+  google.maps.event.addListener(layers.BBQ, 'click', function(kmlEvent) {
+      var title = kmlEvent.featureData.name;
+      var firstHyphen = title.indexOf('-');
+      var secondHyphen = title.indexOf('-', firstHyphen + 1);
+      var suburb = title.substr(firstHyphen, secondHyphen - firstHyphen);
+      alert(suburb);
+      //getSidebar(marker.getTitle());
+  });
+  
 
 }
 
