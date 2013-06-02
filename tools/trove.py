@@ -1,11 +1,10 @@
 from lxml import etree
-from lxml import objectify
 import urllib
 import random
 
 troveAPIKey = "a8dh86ihafs8rrdm"
 troveBase = "http://api.trove.nla.gov.au/result?"
-maxInteresting = 10
+maxInteresting = 20
 
 def findPicture(suburb):
     keys = {'key' : troveAPIKey}
@@ -18,16 +17,23 @@ def findPicture(suburb):
     keys['s'] = random.randrange(maxInteresting)
     keys['n'] = 1
     keyStr = urllib.urlencode(keys)
-    print (troveBase + keyStr)
     resTree = etree.parse(troveBase + keyStr)
-    root = resTree.getroot()
-    for ident in root.iter("identifier"):
+    work = resTree.getroot()[1][0][0]
+    page = ""
+    thumb = ""
+    title = work.find("title").text
+    for ident in work.iter("identifier"):
         if ident.get("type") == "url" and ident.get("linktype") == "fulltext":
-            print "fulltext:  " + ident.text
+            page = ident.text
         elif ident.get("type") == "url" and ident.get("linktype") == "thumbnail":
-            print "thumbnail: " + ident.text
-    return root
+            thumb = ident.text
+    if thumb == "" or page == "" or title is None: 
+        return findPicture(suburb)
+    return [title, thumb, page, work]
     
     
     
-findPicture('downer')
+res = findPicture('acton')
+print "title:     " + res[0]
+print "thumbnail: " + res[1]
+print "page:      " + res[2]
