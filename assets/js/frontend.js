@@ -88,4 +88,5 @@ function toggleLayer(layer) {
     layers[layer].setMap(map);
     layersVisible[layer] = true;
   }
+  $('#' + layer).toggleClass('disabled', layersVisible[layer]);
 }
