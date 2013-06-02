@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Plan your Picnic</title>
+    <title>Plan Your Picnic!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Plan your picnic around Canberra - find BBQs, playgrounds and public toilets.">
     <meta name="author" content="Hungry Hungry Hackers, GovHack 2013">
