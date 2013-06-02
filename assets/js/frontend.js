@@ -45,23 +45,20 @@ function initialize() {
   });
   layersVisible.playgrounds = true;
   layers.playgrounds.setMap(map);
+   
   
-  
-  google.maps.event.addListener(layers.BBQ, 'click', function(kmlEvent) {
-      var title = kmlEvent.featureData.name;
-      var firstHyphen = title.indexOf('-');
-      var secondHyphen = title.indexOf('-', firstHyphen + 1);
-      var suburb = title.substr(firstHyphen + 1, secondHyphen - firstHyphen - 1 );
-      getSidebar(suburb);
-      return false;
-  });
-  
-
   layers.targets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/dynamicmap.kml/1/1/1/0?random=' + nonce,
     preserveViewport: true
   });
   layers.targets.setMap(map);
+  
+  
+  google.maps.event.addListener(layers.BBQ, 'click', getSidebar);
+  google.maps.event.addListener(layers.tables, 'click', getSidebar);
+  google.maps.event.addListener(layers.toilets, 'click', getSidebar);
+  google.maps.event.addListener(layers.playgrounds, 'click', getSidebar);
+  google.maps.event.addListener(layers.targets, 'click', getSidebarDestination);
 
 }
 
@@ -113,10 +110,35 @@ function toggleLayer(layer) {
 }
 
 
-function getSidebar(name) {
-    $.ajax({url: 'http://' + HOSTNAME + '/sidebar/' + name, 
+function getSidebar(kmlEvent) {
+    var title = kmlEvent.featureData.name;
+    var firstHyphen = title.indexOf('-');
+    var secondHyphen = title.indexOf('-', firstHyphen + 1);
+    var suburb = title.substr(firstHyphen + 1, secondHyphen - firstHyphen - 1 );
+    
+    $.ajax({url: 'http://' + HOSTNAME + '/sidebar/' + suburb, 
            success: function(data) {
             $('#sidebar').html(data);
         }
     });
+    return false;
 }
+
+function getSidebarDestination(kmlEvent) {
+    var suburb;
+    var title = kmlEvent.featureData.name;
+    var firstParens = title.indexOf('(');
+    if (firstParens != -1) {
+        suburb = title.substr(firstParens + 1, title.length() - firstParens - 1);
+    } else {
+        suburb = title;
+    }
+    alert(suburb);
+    $.ajax({url: 'http://' + HOSTNAME + '/sidebar/' + suburb, 
+           success: function(data) {
+            $('#sidebar').html(data);
+        }
+    });
+    return false;
+}
+    
