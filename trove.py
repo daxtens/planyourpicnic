@@ -39,7 +39,7 @@ def findPicture(suburb, checked=set()):
     
     
     
-res = findPicture('acton')
-print "title:     " + res[0]
-print "thumbnail: " + res[1]
-print "page:      " + res[2]
+#res = findPicture('acton')
+#print "title:     " + res[0]
+#print "thumbnail: " + res[1]
+#print "page:      " + res[2]
