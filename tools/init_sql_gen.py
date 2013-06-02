@@ -13,6 +13,11 @@ CREATE USER planyourpicnic WITH PASSWORD planyourpicnic;
 CREATE DATABASE planyourpicnic;
 GRANT ALL PRIVILEGES ON DATABASE planyourpicnic TO planyourpicnic;
 
+
+CREATE EXTENSION cube;
+CREATE EXTENSION earthdistance;
+
+
 --
 -- PostgreSQL database dump
 --
@@ -264,21 +269,21 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 """
 
 
-current_id = 0
+current_id = 1
 
 # Import the data
 with open(sys.argv[1]) as csvfile:
     reader = csv.reader(csvfile)
     for line in reader:
         
-        print "INSERT INTO pois (id, location, type) VALUES (%d, %s, 'bbq');" % (current_id, (line[2] and line[3]) and "'%s, %s'" % (line[2], line[3]) or 'NULL')
+        print "INSERT INTO pois (location, type) VALUES (%s, 'bbq');" % ((line[3] and line[2]) and "'%s, %s'" % (line[3], line[2]) or 'NULL')
         
         
         print "INSERT INTO bbqs (id, name, suburb, location, type, hotplates, tap, bench_type, wired_door, climb_access, hotplate_material) VALUES (%d, '%s', '%s', %s, '%s', %d, %s, %s, %s, %s, %s);" % \
             (current_id,
             line[0],
             line[1],
-            (line[2] and line[3]) and "'%s, %s'" % (line[2], line[3]) or 'NULL',
+            (line[3] and line[2]) and "'%s, %s'" % (line[3], line[2]) or 'NULL',
             line[4],
             line[5]=='SINGLE' and 1 or 2,
             line[6] == 'Y' and 'TRUE' or (line[6] == 'N' and 'FALSE' or 'NULL'),

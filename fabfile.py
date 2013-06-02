@@ -3,7 +3,7 @@ from fabric.api import *
 def setup():
 	local("pip install bottle")
 	local("pip install psycopg2")
-	local("pip install simplekml")
+	local("pip install simplekml pykml lxml")
 	local("pip install pyproj")
         
         # syntax checkers and cleaners
@@ -12,12 +12,12 @@ def setup():
         
         # Set up database
         local("sudo -u postgres psql -f data/create_user_db.sql")
-        local("sudo -u postgres psql planyourpicnic -f data/init.sql")
+        local("cd tools; ./import_all.sh")
 
 
 def init_ec2():
     run("sudo apt-get update; sudo apt-get upgrade -y")
-    run("sudo apt-get install -y python-dev postgresql libpq-dev git fabric nginx supervisor python-pip")
+    run("sudo apt-get install -y python-dev postgresql libpq-dev git fabric nginx supervisor python-pip postgresql-contrib")
     run("[ -e /home/pyp ] || sudo useradd -m pyp")
     run("sudo rm -rf /home/pyp/planyourpicnic")
     run("sudo -u pyp git clone git://github.com/daxtens/planyourpicnic.git /home/pyp/planyourpicnic")
@@ -40,6 +40,8 @@ server {
         root /home/pyp/planyourpicnic;
         index index.html index.htm;
 
+        server_name planyourpicnic.dja.id.au;
+
         location / {
                 proxy_pass  http://pyp;
                 proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
@@ -54,3 +56,7 @@ server {
 __EOF__""")
     run("sudo mv /tmp/default /etc/nginx/sites-available")
     run("sudo service nginx restart")
+
+def update_ec2():
+    run("sudo rm -rf /home/pyp/planyourpicnic")
+    run("sudo -u pyp git clone git://github.com/daxtens/planyourpicnic.git /home/pyp/planyourpicnic")
