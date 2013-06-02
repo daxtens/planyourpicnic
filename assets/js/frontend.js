@@ -129,7 +129,7 @@ function getSidebarDestination(kmlEvent) {
     var title = kmlEvent.featureData.name;
     var firstParens = title.indexOf('(');
     if (firstParens != -1) {
-        suburb = title.substr(firstParens + 1, title.length() - firstParens - 1);
+        suburb = title.substr(firstParens + 1, title.length - firstParens - 1);
     } else {
         suburb = title;
     }
