@@ -30,6 +30,7 @@ function initialize() {
     preserveViewport: true
   });
   layersVisible.tables = false;
+  $('#tables').addClass('disabled');
 
   layers.toilets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
@@ -79,4 +80,5 @@ function toggleLayer(layer) {
     layers[layer].setMap(map);
     layersVisible[layer] = true;
   }
+  $('#' + layer).toggleClass('disabled', !layersVisible[layer]);
 }
