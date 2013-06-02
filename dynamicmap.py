@@ -78,11 +78,11 @@ def dynamickml(hasbbq, hasplayground, hastoilet, hastable):
     query = query + ') as subq '
 
     if hasbbq == '1':
-        query = 'SELECT dest.name as name, dest.location as location from ' + query + ' join bbqs'
+        query = "SELECT (dest.name || ' (' || dest.suburb || ')') as name, dest.location as location from " + query + ' join bbqs'
     elif hasplayground == '1':
         query = 'SELECT dest.division_name as name, dest.location as location from ' + query + ' join playgrounds'
     elif hastoilet == '1':
-        query = 'SELECT dest.location_description as name, dest.location as location from ' + query + ' join toilets'
+        query = "SELECT (dest.location_description, || ' (' || dest.division_name || ')') as name, dest.location as location from " + query + ' join toilets'
 
 
     query = query + ' as dest on dest.id = subq.id;'
