@@ -44,3 +44,8 @@ body {
     margin: 20px 0;
 }
 
+.disabled {
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
