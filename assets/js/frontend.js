@@ -5,6 +5,7 @@ var HOSTNAME = "planyourpicnic.dja.id.au"
 var layers = {};
 var layersVisible = {};
 var map;
+var infowindow = new google.maps.InfoWindow();
 
 function initialize() {
   var nonce = Math.random();
@@ -20,28 +21,32 @@ function initialize() {
 
   layers.BBQ = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/bbq.kml?random=' + nonce,
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layersVisible.BBQ = true;
   layers.BBQ.setMap(map);
 
   layers.tables = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/furnitures_tables.kml?random=' + nonce,
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layersVisible.tables = false;
   $('#tables').addClass('disabled');
 
   layers.toilets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layersVisible.toilets = true;
   layers.toilets.setMap(map);
 
   layers.playgrounds = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/playgrounds.kml?random=' + nonce,
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layersVisible.playgrounds = true;
   layers.playgrounds.setMap(map);
@@ -49,7 +54,8 @@ function initialize() {
   
   layers.targets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/dynamicmap.kml/1/1/1/0?random=' + nonce,
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layers.targets.setMap(map);
   
@@ -59,6 +65,12 @@ function initialize() {
   google.maps.event.addListener(layers.toilets, 'click', getSidebar);
   google.maps.event.addListener(layers.playgrounds, 'click', getSidebar);
   google.maps.event.addListener(layers.targets, 'click', getSidebarDestination);
+
+  google.maps.event.addListener(layers.BBQ, 'click', closeOtherInfoWindows);
+  google.maps.event.addListener(layers.tables, 'click', closeOtherInfoWindows);
+  google.maps.event.addListener(layers.toilets, 'click', closeOtherInfoWindows);
+  google.maps.event.addListener(layers.playgrounds, 'click', closeOtherInfoWindows);
+  google.maps.event.addListener(layers.targets, 'click', closeOtherInfoWindows);
 
 }
 
@@ -103,7 +115,8 @@ function toggleLayer(layer) {
         (layersVisible['playgrounds'] ? 1 : 0) + '/' +
         (layersVisible['toilets'] ? 1 : 0) + '/' +
         (layersVisible['tables'] ? 1 : 0) + '?random=' + Math.random(),
-    preserveViewport: true
+    preserveViewport: true,
+    suppressInfoWindows: true
   });
   layers.targets.setMap(map);
 
@@ -140,4 +153,11 @@ function getSidebarDestination(kmlEvent) {
     });
     return false;
 }
-    
+
+function closeOtherInfoWindows(event) {
+    infowindow.setContent(event.featureData.infoWindowHtml);
+    infowindow.position = event.latLng;
+    infowindow.pixelOffset = new google.maps.Size(event.pixelOffset.width, event.pixelOffset.height);
+    infowindow.open(map);
+    console.log(event);
+}
