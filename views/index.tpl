@@ -54,7 +54,7 @@
 
       <div class="container">
         <div id="map-canvas"></div>
-        <div id="sidebar">Hello</div>
+        <div id="sidebar"></div>
       </div>
       <div id="push"></div>
 
