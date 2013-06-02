@@ -6,6 +6,7 @@ import psycopg2.extensions
 import re
 import bottle
 import simplekml
+import urllib
 
 class Point(object):
     def __init__(self, dataString):
@@ -110,7 +111,11 @@ def dynamickml(hasbbq, hasplayground, hastoilet, hastable):
         if not entry[1] is None and not entry[0] == past:
             #print entry[0], entry[1]
             past = entry[0]
-            point = kml.newpoint(name=entry[0], coords=[(entry[1].longitude, entry[1].latitude)])
+            point = kml.newpoint(name=entry[0], coords=[(entry[1].longitude, entry[1].latitude)],
+                                 description='<a href="http://maps.google.com/maps?q=' + \
+                                 str(entry[1].latitude) + '+' + str(entry[1].longitude) + '+' + \
+                                 urllib.quote(entry[0]) + \
+                                 '&hl=en&t=h&z=16&iwloc=A&f=d)>Directions to here</a>')
             point.style = style
 
     db_cur.close()
