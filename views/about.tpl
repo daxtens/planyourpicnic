@@ -19,18 +19,20 @@
 
 <p>Our beautiful icons come from Nicolas Mollet's <a href="http://mapicons.nicolasmollet.com">Maps Icons Collection</a> under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</a> licence.</p>
 
+<!-- TODO: Add Powered by Trove -->
+
 <p>Plan Your Picnic is powered by (in no particular order!):
 <ul>
 <li><a href="http://python.org">Python</a></li>
 <li><a href="http://aws.amazon.com">Amazon Web Services</a></li>
 <li><a href="http://bottlepy.org/">Bottle Python Web Framework</a></li>
 <li><a href="http://www.postgresql.org">PostgreSQL</a></li>
-<li>Bootstrap</li>
-<li>Google Maps API</li>
-<li>Fabric</li>
+<li><a href="http://twitter.github.io/bootstrap/">Bootstrap</a></li>
+<li><a href="https://developers.google.com/maps/">Google Maps API</a></li>
+<li><a href="http://www.fabfile.org">Fabric</a></li>
 <li><a href="https://code.google.com/p/pyproj/">pyproj</a></li>
-<li>simplekml</li>
-<li>nginx</li></ul></p>
+<li><a href="https://code.google.com/p/simplekml/">simplekml</a></li>
+<li><a href="http://nginx.org">nginx</a></li></ul></p>
 
 
 <h2>Copyright and Disclaimer</h2>
