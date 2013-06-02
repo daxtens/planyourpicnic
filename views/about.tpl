@@ -17,9 +17,10 @@
 
 <p>ACT Government datasets are released under the <a href="http://creativecommons.org/licenses/by/3.0/au/deed.en">Creative Commons Attribution 3.0 Australia</a> licence.</p>
 
-<p>Our beautiful icons come from Nicolas Mollet's <a href="http://mapicons.nicolasmollet.com">Maps Icons Collection</a> under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</a> licence.</p>
+<p>Historical information is provided by the National Library of Australia, through <a href="http://trove.nla.gov.au/">Trove</a>.
+<br><a href="http://trove.nla.gov.au/"><img src="assets/img/trove-API-logo-dark.png" alt="Powered by Trove"/></a></p>
 
-<!-- TODO: Add Powered by Trove -->
+<p>Our beautiful icons come from Nicolas Mollet's <a href="http://mapicons.nicolasmollet.com">Maps Icons Collection</a> under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</a> licence.</p>
 
 <p>Plan Your Picnic is powered by (in no particular order!):
 <ul>
