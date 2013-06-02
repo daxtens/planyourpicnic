@@ -25,13 +25,6 @@ function initialize() {
   layersVisible.BBQ = true;
   layers.BBQ.setMap(map);
 
-  layers.seats = new google.maps.KmlLayer({
-    url: 'http://'+HOSTNAME+'/data/furnitures_seats.kml?random=' + nonce,
-    preserveViewport: true
-  });
-  layersVisible.seats = true;
-  layers.seats.setMap(map);
-
   layers.tables = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/furnitures_tables.kml?random=' + nonce,
     preserveViewport: true
@@ -60,10 +53,6 @@ $(document).on('ready', function() {
   // wire up some event handlers
   $("#BBQ").on('click', function() {
     toggleLayer('BBQ');
-  });
-
-  $("#seats").on('click', function() {
-    toggleLayer('seats');
   });
 
   $("#tables").on('click', function() {
