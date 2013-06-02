@@ -1,22 +1,28 @@
 from lxml import etree
 import urllib
 import random
-from settings import TROVE_API_KEY, TROVE_BASE
 
+troveAPIKey = "a8dh86ihafs8rrdm"
+troveBase = "http://api.trove.nla.gov.au/result?"
 maxInteresting = 20
 
-def findPicture(suburb):
-    keys = {'key' : TROVE_API_KEY}
+def findPicture(suburb, checked=set()):
+    keys = {'key' : troveAPIKey}
     keys['zone'] = 'picture'
     #key words
     keys['q'] = 'ACT ' + suburb
     keys['l-availability'] = 'y/f'
     keys['l-australian'] = 'y'
     keys['include'] = 'links'
-    keys['s'] = random.randrange(maxInteresting)
+    if len(checked) < maxInteresting:
+        keys['s'] = random.randrange(maxInteresting)
+        while keys['s'] in checked:
+            keys['s'] = random.randrange(maxInteresting)
+    else:
+        raise "Trove error: Could not find a valid record"
     keys['n'] = 1
     keyStr = urllib.urlencode(keys)
-    resTree = etree.parse(TROVE_BASE + keyStr)
+    resTree = etree.parse(troveBase + keyStr)
     work = resTree.getroot()[1][0][0]
     page = ""
     thumb = ""
@@ -26,6 +32,14 @@ def findPicture(suburb):
             page = ident.text
         elif ident.get("type") == "url" and ident.get("linktype") == "thumbnail":
             thumb = ident.text
-    if thumb == "" or page == "" or title is None: 
-        return findPicture(suburb)
-    return {'title': title, 'thumb_uri': thumb, 'link': page, 'xml': work}
+    if thumb == "" or page == "" or title is None or title == "":
+        checked.add(keys['s'])
+        return findPicture(suburb, checked)
+    return [title, thumb, page, work]
+    
+    
+    
+#res = findPicture('acton')
+#print "title:     " + res[0]
+#print "thumbnail: " + res[1]
+#print "page:      " + res[2]

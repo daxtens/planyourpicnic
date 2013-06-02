@@ -57,6 +57,12 @@ function initialize() {
   });
   
 
+  layers.targets = new google.maps.KmlLayer({
+    url: 'http://'+HOSTNAME+'/dynamicmap.kml/1/1/1/0?random=' + nonce,
+    preserveViewport: true
+  });
+  layers.targets.setMap(map);
+
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
@@ -92,4 +98,16 @@ function toggleLayer(layer) {
     layersVisible[layer] = true;
   }
   $('#' + layer).toggleClass('disabled', !layersVisible[layer]);
+
+  layers.targets.setMap(null);
+  layers.targets = new google.maps.KmlLayer({
+    url: 'http://'+HOSTNAME+'/dynamicmap.kml/'+
+        (layersVisible['BBQ'] ? 1 : 0) + '/' +
+        (layersVisible['playgrounds'] ? 1 : 0) + '/' +
+        (layersVisible['toilets'] ? 1 : 0) + '/' +
+        (layersVisible['tables'] ? 1 : 0) + '?random=' + Math.random(),
+    preserveViewport: true
+  });
+  layers.targets.setMap(map);
+
 }
