@@ -33,7 +33,7 @@ def sidebar(keyword):
         result['undefined'] = False
         result['keyword'] = keyword.upper()
         # TODO: Do this more nicely
-        if len(result['title'] > 200):
+        if len(result['title']) > 200:
             result['title'] = result['title'][:200] + '...'
         
         return result
@@ -52,4 +52,4 @@ if __name__ == "__main__":
         sys.path.append(os.path.dirname(__file__))
 
     # run it
-    bottle.run(reloader=True, debug=True, host="0.0.0.0")
+    bottle.run(reloader=True, debug=True, host="0.0.0.0", port=8082)
