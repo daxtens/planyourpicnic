@@ -33,8 +33,8 @@ def sidebar(keyword):
         result['undefined'] = False
         result['keyword'] = keyword.upper()
         # TODO: Do this more nicely
-        if len(result['title']) > 200:
-            result['title'] = result['title'][:200] + '...'
+        if len(result['title']) > 180:
+            result['title'] = result['title'][:180] + '...'
         
         return result
     except:
