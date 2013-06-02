@@ -1012,81 +1012,81 @@
                 <coordinates>149.074415,-35.23558,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1770">
-            <name>TABLE - BRADDON - HAIG PARK</name>
+        <Placemark id="feat_1814">
+            <name>TABLE - BONNER - PEARL GIBBS CIRCUIT NEIGHBOURHOOD PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1764">
-                <coordinates>149.132429,-35.269315,0.0</coordinates>
+            <Point id="geom_1808">
+                <coordinates>149.143695,-35.155945,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1815">
             <name>TABLE - BONNER - PEARL GIBBS CIRCUIT NEIGHBOURHOOD PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1809">
-                <coordinates>149.143695,-35.155945,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_1816">
-            <name>TABLE - BONNER - PEARL GIBBS CIRCUIT NEIGHBOURHOOD PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1810">
                 <coordinates>149.143706,-35.155974,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1827">
+        <Placemark id="feat_1826">
             <name>TABLE - BONYTHON - DERRIGNTON CRESCENT PEDESTRIAN PARKLAND</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1821">
+            <Point id="geom_1820">
                 <coordinates>149.071242,-35.429619,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_1828">
+            <name>TABLE - BONYTHON - BURGOYNE STREET NEIGHBOURHOOD PARK</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_1822">
+                <coordinates>149.071706,-35.426279,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1829">
             <name>TABLE - BONYTHON - BURGOYNE STREET NEIGHBOURHOOD PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1823">
-                <coordinates>149.071706,-35.426279,0.0</coordinates>
+                <coordinates>149.071628,-35.426322,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1830">
-            <name>TABLE - BONYTHON - BURGOYNE STREET NEIGHBOURHOOD PARK</name>
+        <Placemark id="feat_1842">
+            <name>TABLE - BOOTH - </name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1824">
-                <coordinates>149.071628,-35.426322,0.0</coordinates>
+            <Point id="geom_1836">
+                <coordinates>148.997849,-35.680694,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1843">
             <name>TABLE - BOOTH - </name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1837">
-                <coordinates>148.997849,-35.680694,0.0</coordinates>
+                <coordinates>149.003525,-35.693375,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1844">
             <name>TABLE - BOOTH - </name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1838">
-                <coordinates>149.003525,-35.693375,0.0</coordinates>
+                <coordinates>148.997764,-35.680996,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1845">
             <name>TABLE - BOOTH - </name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1839">
-                <coordinates>148.997764,-35.680996,0.0</coordinates>
+                <coordinates>148.998285,-35.68151,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1846">
             <name>TABLE - BOOTH - </name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_1840">
-                <coordinates>148.998285,-35.68151,0.0</coordinates>
+                <coordinates>148.997947,-35.680988,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1847">
-            <name>TABLE - BOOTH - </name>
+        <Placemark id="feat_1848">
+            <name>TABLE - BRADDON - HAIG PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_1841">
-                <coordinates>148.997947,-35.680988,0.0</coordinates>
+            <Point id="geom_1842">
+                <coordinates>149.132429,-35.269315,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_1867">
@@ -2503,80 +2503,80 @@
                 <coordinates>149.174633,-35.304911,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_3108">
+        <Placemark id="feat_3107">
             <name>TABLE - FYSHWICK - MARYBOROUGH STREET - PEDESTRIAN PARKLAND</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3102">
+            <Point id="geom_3101">
                 <coordinates>149.176723,-35.326906,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3108">
+            <name>TABLE - FYSHWICK - MOLONGLO REACH WATER SKI</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_3102">
+                <coordinates>149.175086,-35.30434,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3109">
             <name>TABLE - FYSHWICK - MOLONGLO REACH WATER SKI</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_3103">
-                <coordinates>149.175086,-35.30434,0.0</coordinates>
+                <coordinates>149.17481,-35.305018,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_3110">
-            <name>TABLE - FYSHWICK - MOLONGLO REACH WATER SKI</name>
+        <Placemark id="feat_3160">
+            <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3104">
-                <coordinates>149.17481,-35.305018,0.0</coordinates>
+            <Point id="geom_3154">
+                <coordinates>149.083832,-35.45658,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3161">
             <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_3155">
-                <coordinates>149.083832,-35.45658,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_3162">
-            <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3156">
                 <coordinates>149.083952,-35.456599,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_3177">
+        <Placemark id="feat_3176">
             <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3171">
+            <Point id="geom_3170">
                 <coordinates>149.084333,-35.455846,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_3178">
+        <Placemark id="feat_3177">
             <name>TABLE - GORDON - JIM PIKE AVENUE PEDESTRIAN PARKLAND</name>
             <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3172">
+            <Point id="geom_3171">
                 <coordinates>149.081026,-35.463083,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3178">
+            <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_3172">
+                <coordinates>149.084249,-35.455831,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3179">
             <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_3173">
-                <coordinates>149.084249,-35.455831,0.0</coordinates>
+                <coordinates>149.08435,-35.455777,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3180">
             <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_3174">
-                <coordinates>149.08435,-35.455777,0.0</coordinates>
+                <coordinates>149.084668,-35.456083,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3181">
             <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
             <styleUrl>#stylesel_1</styleUrl>
             <Point id="geom_3175">
-                <coordinates>149.084668,-35.456083,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_3182">
-            <name>TABLE - GORDON - POINT HUT DISTRICT PARK</name>
-            <styleUrl>#stylesel_1</styleUrl>
-            <Point id="geom_3176">
                 <coordinates>149.084724,-35.455993,0.0</coordinates>
             </Point>
         </Placemark>

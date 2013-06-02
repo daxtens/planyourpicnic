@@ -44,7 +44,7 @@ bbqs = cur.fetchall()
 for bbq in bbqs:
     if bbq['location'] != None:
         coords = bbq['location'][1:-1].split(',')
-        point = kml.newpoint(name="BBQ - " + bbq['name'] + ' - ' + bbq['suburb'], coords=[(float(coords[0]), float(coords[1]))])
+        point = kml.newpoint(name="BBQ - " + bbq['suburb'] + ' - ' + bbq['name'], coords=[(float(coords[0]), float(coords[1]))])
         point.style = bbq_style
 
 kml.save("data/bbq.kml")
