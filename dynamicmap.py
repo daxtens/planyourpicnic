@@ -115,7 +115,7 @@ def dynamickml(hasbbq, hasplayground, hastoilet, hastable):
                                  description='<a href="http://maps.google.com/maps?q=' + \
                                  str(entry[1].latitude) + '+' + str(entry[1].longitude) + '+' + \
                                  urllib.quote(entry[0]) + \
-                                 '&hl=en&t=h&z=16&iwloc=A&f=d)>Directions to here</a>')
+                                 '&hl=en&t=h&z=16&iwloc=A&f=d">Directions to here</a>')
             point.style = style
 
     db_cur.close()
