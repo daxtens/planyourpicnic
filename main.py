@@ -4,6 +4,7 @@ import bottle
 import os, sys
 import settings
 import trove
+import dynamicmap
 
 @bottle.route('/')
 @bottle.route('/index.html')
