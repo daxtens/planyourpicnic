@@ -23,6 +23,7 @@
 
     <link href="assets/css/footer.css" rel="stylesheet">
     <link href="assets/css/gmaps.css" rel="stylesheet">
+    <link href="assets/css/sidebar.css" rel="stylesheet">
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
   </head>
@@ -53,6 +54,7 @@
 
       <div class="container">
         <div id="map-canvas"></div>
+        <div id="sidebar">Hello</div>
       </div>
       <div id="push"></div>
 
@@ -75,6 +77,7 @@
     <script>
       $(document).on('ready', function() {
       $('#map-canvas').height( $(window).height() - 120 );
+      $('#sidebar').height( $(window).height() - 120 );
       });
     </script>
   </body>

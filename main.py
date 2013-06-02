@@ -3,6 +3,7 @@
 import bottle
 import os, sys
 import settings
+import trove
 
 @bottle.route('/')
 @bottle.route('/index.html')
@@ -22,6 +23,16 @@ def about():
 def contact():
     return {}
 
+@bottle.route('/sidebar/<keyword:path>')
+@bottle.view('sidebar')
+def sidebar(keyword):
+    # UGLY HACK PLEASE FIX
+    try:
+        result = trove.findPicture(keyword)
+        result['undefined'] = False
+        return result
+    except:
+        return {'undefined': True}
 
 @bottle.route('/<path:path>')
 def static(path):

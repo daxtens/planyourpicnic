@@ -1,13 +1,12 @@
 from lxml import etree
 import urllib
 import random
+from settings import TROVE_API_KEY, TROVE_BASE
 
-troveAPIKey = "a8dh86ihafs8rrdm"
-troveBase = "http://api.trove.nla.gov.au/result?"
 maxInteresting = 20
 
 def findPicture(suburb):
-    keys = {'key' : troveAPIKey}
+    keys = {'key' : TROVE_API_KEY}
     keys['zone'] = 'picture'
     #key words
     keys['q'] = 'ACT ' + suburb
@@ -17,7 +16,7 @@ def findPicture(suburb):
     keys['s'] = random.randrange(maxInteresting)
     keys['n'] = 1
     keyStr = urllib.urlencode(keys)
-    resTree = etree.parse(troveBase + keyStr)
+    resTree = etree.parse(TROVE_BASE + keyStr)
     work = resTree.getroot()[1][0][0]
     page = ""
     thumb = ""
@@ -29,11 +28,4 @@ def findPicture(suburb):
             thumb = ident.text
     if thumb == "" or page == "" or title is None: 
         return findPicture(suburb)
-    return [title, thumb, page, work]
-    
-    
-    
-res = findPicture('acton')
-print "title:     " + res[0]
-print "thumbnail: " + res[1]
-print "page:      " + res[2]
+    return {'title': title, 'thumb_uri': thumb, 'link': page, 'xml': work}
