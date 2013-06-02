@@ -16,6 +16,7 @@
     
     #sidebar-img {
         width: 200px;
+        max-height: 170px; 
     }
     
     #map-canvas {
@@ -23,5 +24,13 @@
         width: -webkit-calc(100% - 250px);
         width: calc(100% - 250px);
         float: left;
+    }
+    
+    #sidebar-keyword {
+        height: 40px;
+    }
+    
+    #sidebar-title {
+        height: 90px;
     }
 }
