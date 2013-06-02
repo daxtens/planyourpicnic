@@ -51,9 +51,9 @@ function initialize() {
       var title = kmlEvent.featureData.name;
       var firstHyphen = title.indexOf('-');
       var secondHyphen = title.indexOf('-', firstHyphen + 1);
-      var suburb = title.substr(firstHyphen, secondHyphen - firstHyphen);
-      alert(suburb);
-      //getSidebar(marker.getTitle());
+      var suburb = title.substr(firstHyphen + 1, secondHyphen - firstHyphen - 1 );
+      getSidebar(suburb);
+      return false;
   });
   
 
@@ -110,4 +110,13 @@ function toggleLayer(layer) {
   });
   layers.targets.setMap(map);
 
+}
+
+
+function getSidebar(name) {
+    $.ajax({url: 'http://' + HOSTNAME + '/sidebar/' + name, 
+           success: function(data) {
+            $('#sidebar').html(data);
+        }
+    });
 }
