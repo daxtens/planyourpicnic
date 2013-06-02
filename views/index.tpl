@@ -64,7 +64,7 @@
           <a href="#" id="BBQ" title="BBQ"><img src="assets/img/barbecue.png" class="layericon" alt="BBQ"/></a>
           <a href="#" id="playgrounds" title="Playgrounds"><img src="assets/img/playground.png" class="layericon" alt="Playground"/></a>          
           <a href="#" id="toilets" title="Public Toilets"><img src="assets/img/toilets.png" class="layericon" alt="Public Toilets"/></a>
-	  <a href="#" id="tables" title="Tables"><img src="assets/img/picnic.png" class="layericon disabled" alt="Tables"/></a>
+	  <a href="#" id="tables" title="Tables"><img src="assets/img/picnic.png" class="layericon" alt="Tables"/></a>
         </p>
       </div>
     </div>

@@ -30,6 +30,7 @@ function initialize() {
     preserveViewport: true
   });
   layersVisible.tables = false;
+  $('#tables').addClass('disabled');
 
   layers.toilets = new google.maps.KmlLayer({
     url: 'http://'+HOSTNAME+'/data/toilets.kml?random=' + nonce,
