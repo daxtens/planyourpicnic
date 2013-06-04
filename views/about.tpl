@@ -1,19 +1,19 @@
 <p>Plan Your Picnic helps you to celebrate <a href="http://www.canberra100.com.au">Canberra's 100th Birthday</a> with a perfect outing to one of the ACT's many fine picnic locations!</p>
 
-<p>Plan Your Picnic was developed for <a href="http://www.govhack.org">GovHack 2013</a> by the Hungry Hungry Hackers:
+<p>Plan Your Picnic was developed for <a href="http://www.govhack.org">GovHack 2013</a> by the Hungry Hungry Hackers:</p>
 <ul><li>Daniel Axtens</li>
 <li>Teresa Bradbury</li>
 <li>Andrew Donnellan</li>
-<li>Jonathan Franzi</li></ul></p>
+<li>Jonathan Franzi</li></ul>
 
 <p>Technically inclined? Check our our source code on <a href="https://github.com/daxtens/planyourpicnic">GitHub</a>!</p>
 
 <h2>Acknowledgements</h2>
-<p>Plan Your Picnic uses the following datasets from the <a href="http://www.data.act.gov.au">ACT Government</a>:
+<p>Plan Your Picnic uses the following datasets from the <a href="http://www.data.act.gov.au">ACT Government</a>:</p>
 <ul><li><a href="https://www.data.act.gov.au/Public-Works/Playgrounds-in-the-ACT/gk9r-4a8z">Playgrounds in the ACT</a></li>
 <li><a href="https://www.data.act.gov.au/Public-Works/Public-Toilets-in-the-ACT/3tyf-txjn">Public Toilets in the ACT</a></li>
 <li><a href="https://www.data.act.gov.au/Public-Works/Public-Furniture-in-the-ACT/ch39-bukk">Public Furniture in the ACT</a></li>
-<li><a href="http://data.gov.au/dataset/act-barbecue-bbq-locations/">ACT Barbecue (BBQ) Locations</a></li></ul></p>
+<li><a href="http://data.gov.au/dataset/act-barbecue-bbq-locations/">ACT Barbecue (BBQ) Locations</a></li></ul>
 
 <p>ACT Government datasets are released under the <a href="http://creativecommons.org/licenses/by/3.0/au/deed.en">Creative Commons Attribution 3.0 Australia</a> licence.</p>
 
@@ -22,7 +22,7 @@
 
 <p>Our beautiful icons come from Nicolas Mollet's <a href="http://mapicons.nicolasmollet.com">Maps Icons Collection</a> under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</a> licence.</p>
 
-<p>Plan Your Picnic is powered by (in no particular order!):
+<p>Plan Your Picnic is powered by (in no particular order!):</p>
 <ul>
 <li><a href="http://python.org">Python</a></li>
 <li><a href="http://aws.amazon.com">Amazon Web Services</a></li>
@@ -34,7 +34,7 @@
 <li><a href="https://code.google.com/p/pyproj/">pyproj</a></li>
 <li><a href="https://code.google.com/p/simplekml/">simplekml</a></li>
 <li><a href="http://nginx.org">nginx</a></li>
-<li><a href="http://trove.nla.gov.au/general/api">Trove API</a></li></ul></p>
+<li><a href="http://trove.nla.gov.au/general/api">Trove API</a></li></ul>
 
 
 <h2>Copyright and Disclaimer</h2>
