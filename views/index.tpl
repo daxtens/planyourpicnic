@@ -25,7 +25,7 @@
     <link href="assets/css/gmaps.css" rel="stylesheet">
     <link href="assets/css/sidebar.css" rel="stylesheet">
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   </head>
 
   <body>
