@@ -6,13 +6,24 @@ var layers = {};
 var layersVisible = {};
 var map;
 
+var position;
+
 function initialize() {
   var nonce = Math.random();
 
-  var canberra = new google.maps.LatLng(-35.27603,149.13435);
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(updatePosition, positionError);
+  } else {
+    position = new google.maps.LatLng(-35.27603,149.13435);
+  }
+  
+  if (!position) position = new google.maps.LatLng(-35.27603,149.13435);
+  
+  console.log(position);
+  
   var mapOptions = {
     zoom: 14,
-    center: canberra,
+    center: position,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
@@ -149,4 +160,11 @@ function getSidebarDestination(kmlEvent) {
     });
     return false;
 }
-    
+
+function updatePosition(position) {
+    position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+}
+
+function positionError(error) {
+    position = new google.maps.LatLng(-35.27603,149.13435);
+}
