@@ -162,8 +162,8 @@ function getSidebarDestination(kmlEvent) {
 }
 
 function updatePosition(pos) {
-    lat = pos.coords.latitude;
-    lon = pos.coords.longitude;
+    var lat = pos.coords.latitude;
+    var lon = pos.coords.longitude;
     if (lat > -36.0 && lat < -35.0 && lon > 148.5 && lon < 149.5) {
         position = new google.maps.LatLng(lat, lon);
     } else {
