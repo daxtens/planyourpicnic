@@ -163,8 +163,10 @@ function getSidebarDestination(kmlEvent) {
 
 function updatePosition(position) {
     position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    map.panTo(position);
 }
 
 function positionError(error) {
     position = new google.maps.LatLng(-35.27603,149.13435);
+    map.panTo(position);
 }
