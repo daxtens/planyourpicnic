@@ -1,5 +1,7 @@
 <p>Plan Your Picnic helps you to celebrate <a href="http://www.canberra100.com.au">Canberra's 100th Birthday</a> with a perfect outing to one of the ACT's many fine picnic locations!</p>
 
+<p><strong>Curious about what's going on and how to use this?</strong> See our GovHack 2013 <a href="http://www.youtube.com/watch?v=L1Vlc226ruM">video entry</a>.</p>
+
 <p>Plan Your Picnic was developed for <a href="http://www.govhack.org">GovHack 2013</a> by the Hungry Hungry Hackers:</p>
 <ul><li>Daniel Axtens</li>
 <li>Teresa Bradbury</li>
