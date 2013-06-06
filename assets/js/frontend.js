@@ -19,8 +19,6 @@ function initialize() {
   
   if (!position) position = new google.maps.LatLng(-35.27603,149.13435);
   
-  console.log(position);
-  
   var mapOptions = {
     zoom: 14,
     center: position,
