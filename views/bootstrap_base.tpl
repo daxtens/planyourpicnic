@@ -51,6 +51,7 @@
               <li {{! 'class="active"' if active == "plan" else ''}}><a href="/">Plan</a></li>
               <li {{! 'class="active"' if active == "about" else ''}}><a href="/about">About</a></li>
               <li {{! 'class="active"' if active == "contact" else ''}}><a href="/contact">Contact</a></li>
+              <li><a href="http://www.youtube.com/watch?v=L1Vlc226ruM" target="_blank">What's going on?</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
