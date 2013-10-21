@@ -41,7 +41,7 @@ server {
         root /home/pyp/planyourpicnic;
         index index.html index.htm;
 
-        server_name planyourpicnic.dja.id.au;
+        server_name planyourpicnic.dja.id.au planyourpicnic.org.au;
 
         location / {
                 proxy_pass  http://pyp;
