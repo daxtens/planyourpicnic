@@ -42,6 +42,11 @@ instructions are incomplete and probably wrong!
 5. fab setup
 6. Run main.py to run the default Bottle server
 
+## Installing on something other than dedicated hardware
+
+1. Create a virtualenv in ./env
+2. Set up all the dependencies.
+3. Adjust supervisor's pyp.conf to use the main_shared.py file.
 
 ACKNOWLEDGEMENTS
 ================
