@@ -1,6 +1,6 @@
 "use strict"
 
-var HOSTNAME = "planyourpicnic.org.au"
+var HOSTNAME = "planyourpicnic.dja.id.au"
 
 var layers = {};
 var layersVisible = {};
