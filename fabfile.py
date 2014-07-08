@@ -6,10 +6,6 @@ def setup():
 	local("pip install simplekml pykml lxml")
 	local("pip install pyproj")
         
-        # syntax checkers and cleaners
-        local("pip install pep8")
-        local("easy_install http://closure-linter.googlecode.com/files/closure_linter-latest.tar.gz")
-        
         # Set up database
         local("sudo -u postgres psql -f data/create_user_db.sql")
         local("cd tools; ./import_all.sh")
