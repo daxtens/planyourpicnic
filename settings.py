@@ -3,7 +3,7 @@ import urlparse
 
 # Plan Your Picnic settings
 
-HOSTNAME = 'planyourpicnic.herokuapp.com'
+HOSTNAME = 'planyourpicnic.dja.id.au'
 PORT     = int(os.environ.get('PORT', 8080))
 
 # Database details
