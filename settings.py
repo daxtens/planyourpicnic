@@ -3,10 +3,11 @@ import urlparse
 
 # Plan Your Picnic settings
 
-HOSTNAME        = 'planyourpicnic.herokuapp.com'
+HOSTNAME = 'planyourpicnic.herokuapp.com'
+PORT     = int(os.environ.get('PORT', 8080))
 
 # Database details
-dburl = os.environ.get('DATABASE_URL',None)
+dburl = os.environ.get('DATABASE_URL', None)
 if dburl is not None:
     result = urlparse.urlparse(dburl)
     DB_USER     = result.username
