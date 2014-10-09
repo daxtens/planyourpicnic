@@ -1,11 +1,8 @@
 from fabric.api import *
 
 def setup():
-	local("pip install bottle")
-	local("pip install psycopg2")
-	local("pip install simplekml pykml lxml")
-	local("pip install pyproj")
-        
+	local("pip install -r requirements.txt")
+
         # Set up database
         local("sudo -u postgres psql -f data/create_user_db.sql")
         local("cd tools; ./import_all.sh")

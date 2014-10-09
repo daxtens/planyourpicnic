@@ -1,13 +1,25 @@
+import os
+import urlparse
+
 # Plan Your Picnic settings
 
-HOSTNAME        = 'planyourpicnic.dja.id.au'
+HOSTNAME        = 'planyourpicnic.herokuapp.com'
 
 # Database details
-DB_HOST         = 'localhost'
-DB_PORT         = 5432
-DB_DATABASE     = 'planyourpicnic'
-DB_USER         = 'planyourpicnic'
-DB_PASSWORD     = 'planyourpicnic'
+dburl = os.environ.get('DATABASE_URL',None)
+if dburl is not None:
+    result = urlparse.urlparse(dburl)
+    DB_USER     = result.username
+    DB_PASSWORD = result.password
+    DB_DATABASE = result.path[1:]
+    DB_HOST     = result.hostname
+    DB_PORT     = result.port
+else:
+    DB_HOST         = 'localhost'
+    DB_PORT         = 5432
+    DB_DATABASE     = 'planyourpicnic'
+    DB_USER         = 'planyourpicnic'
+    DB_PASSWORD     = 'planyourpicnic'
 
 
 # Trove settings
