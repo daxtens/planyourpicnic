@@ -86,7 +86,7 @@ def dynamickml(hasbbq, hasplayground, hastoilet, hastable):
 
 
     query = query + ' as dest on dest.id = subq.id;'
-
+    print query
     db_conn = psycopg2.connect(host=DB_HOST, database=DB_DATABASE,
                               user=DB_USER, password=DB_PASSWORD, port=DB_PORT)
     db_cur = db_conn.cursor()
@@ -108,6 +108,7 @@ def dynamickml(hasbbq, hasplayground, hastoilet, hastable):
     
     past = []
     for entry in db_cur:
+        print entry
         if not entry[1] is None and not entry[0] == past:
             #print entry[0], entry[1]
             past = entry[0]
